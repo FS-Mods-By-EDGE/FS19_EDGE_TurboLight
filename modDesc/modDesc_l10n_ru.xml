@@ -33,6 +33,6 @@
         <text name="config_TLbeaconWork"		text="Маяковые огни & Рабочие фары"/>
         <text name="config_TLdecalWhite"		text="белый Переводные картинки"/>
         <text name="config_TLdecalBlack"		text="черный Переводные картинки"/>
-        <text name="config_TLdecalWhite"		text="красный Переводные картинки"/>
+        <text name="config_TLdecalRed"		text="красный Переводные картинки"/>
 	</texts>
 </l10n>

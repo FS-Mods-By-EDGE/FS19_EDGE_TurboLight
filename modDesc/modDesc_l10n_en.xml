@@ -33,6 +33,6 @@
         <text name="config_TLbeaconWork"		text="Beacon & Work Lights"/>
         <text name="config_TLdecalWhite"		text="White Decals"/>
         <text name="config_TLdecalBlack"		text="Black Decals"/>
-        <text name="config_TLdecalWhite"		text="Red Decals"/>
+        <text name="config_TLdecalRed"			text="Red Decals"/>
 	</texts>
 </l10n>

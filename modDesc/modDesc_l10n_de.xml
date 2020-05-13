@@ -33,6 +33,6 @@
         <text name="config_TLbeaconWork"		text="Leuchtfeuer & Luci di Arbeitsscheinwerfer"/>
         <text name="config_TLdecalWhite"		text="Weiß Abziehbilder"/>
         <text name="config_TLdecalBlack"		text="Schwarz Abziehbilder"/>
-        <text name="config_TLdecalWhite"		text="rot Abziehbilder"/>
+        <text name="config_TLdecalRed"		text="rot Abziehbilder"/>
 	</texts>
 </l10n>

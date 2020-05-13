@@ -250,6 +250,7 @@
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
                         <additionalWheel filename="wheels/520_85R42.xml" configId="dual" offset="0.2" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                        </additionalWheel>
                         <wheelChock parkingNode="chock01"/>
                         <wheelChock parkingNode="chock02" isInverted="true"/>
                     </wheel>
@@ -257,6 +258,7 @@
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
                         <additionalWheel filename="wheels/520_85R42.xml" configId="dual" offset="0.2" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                        </additionalWheel>
                     </wheel>
                     <wheel filename="wheels/520_85R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
@@ -270,6 +272,7 @@
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
                         <additionalWheel filename="wheels/520_85R42.xml" configId="dual" offset="0.2" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                        </additionalWheel>
                         <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
                     </wheel>
                 </wheels>
@@ -315,22 +318,18 @@
         <sharedLight linkNode="sideMarkerRight" filename="$data/shared/assets/lights/lizard/sideMarker_01_right.xml"/>
         <sharedLight linkNode="sideMarkerWhiteLeft" filename="$data/shared/assets/lights/lizard/sideMarker_04White.xml"/>
         <sharedLight linkNode="sideMarkerWhiteRight" filename="$data/shared/assets/lights/lizard/sideMarker_04White.xml"/>
-        <sharedLight linkNode="sideMarkerOrangeLeftBack" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
-        <sharedLight linkNode="sideMarkerOrangeLeftBack1" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
-        <sharedLight linkNode="sideMarkerOrangeLeftMiddle" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
-        <sharedLight linkNode="sideMarkerOrangeRightBack" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
-        <sharedLight linkNode="sideMarkerOrangeRightBack1" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
-        <sharedLight linkNode="sideMarkerOrangeRightMiddle" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
         <sharedLight linkNode="backRedPoint01" filename="$data/shared/assets/reflectors/lizard/redTriangle_01.xml"/>
         <sharedLight linkNode="backRedPoint02" filename="$data/shared/assets/reflectors/lizard/redTriangle_01.xml"/>
         <sharedLight linkNode="sideMarker_WhiteL01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
         <sharedLight linkNode="sideMarker_WhiteL02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
         <sharedLight linkNode="sideMarker_WhiteL03" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
         <sharedLight linkNode="sideMarker_WhiteL04" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL05" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
         <sharedLight linkNode="sideMarker_WhiteR01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
         <sharedLight linkNode="sideMarker_WhiteR02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
         <sharedLight linkNode="sideMarker_WhiteR03" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
         <sharedLight linkNode="sideMarker_WhiteR04" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR05" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
         <sharedLight linkNode="sideMarkerL01" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
         <sharedLight linkNode="sideMarkerL02" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
         <sharedLight linkNode="sideMarkerL03" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
@@ -536,28 +535,28 @@
         <bendingNode minX="-1.4" maxX="1.4" minZ="-5.1" maxZ="4.8 " yOffset="0.6"/>
     </foliageBending>
     <vehicleTypeConfigurations title="$l10n_config_TLlights">
-        <vehicleTypeConfiguration name="$l10n_config_TLbeaconWork" price="600">
+        <vehicleTypeConfiguration name="$l10n_config_TLbeaconWork" price="600" vehicleType="trailer">
             <objectChange node="beaconLights" visibilityActive="true"/>
             <objectChange node="worklights" visibilityActive="true"/>
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_TLbeacon" price="300">
+        <vehicleTypeConfiguration name="$l10n_config_TLbeacon" price="300" vehicleType="trailer">
             <objectChange node="beaconLights" visibilityActive="true"/>
             <objectChange node="worklights" visibilityActive="false"/>
             <objectChange node="beaconBlock" visibilityActive="true"/>
             <objectChange node="workLightBlock01" visibilityActive="false"/>
             <objectChange node="workLightBlock02" visibilityActive="false"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_TLwork" price="300">
+        <vehicleTypeConfiguration name="$l10n_config_TLwork" price="300" vehicleType="trailer">
             <objectChange node="beaconLights" visibilityActive="false"/>
             <objectChange node="worklights" visibilityActive="true"/>
             <objectChange node="beaconBlock" visibilityActive="false"/>
             <objectChange node="workLightBlock01" visibilityActive="true"/>
             <objectChange node="workLightBlock02" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_TLnoLight" price="0">
+        <vehicleTypeConfiguration name="$l10n_config_TLnoLight" price="0" vehicleType="trailer">
             <objectChange node="beaconLights" visibilityActive="false"/>
             <objectChange node="worklights" visibilityActive="false"/>
             <objectChange node="beaconBlock" visibilityActive="false"/>
@@ -582,7 +581,7 @@
             <objectChange node="decalsBackDoorWhite" visibilityActive="false"/>
             <objectChange node="decalsWhite" visibilityActive="false"/>
         </designConfiguration>
-        <designConfiguration name="$l10n_config_TLdecalWhite" price="100">
+        <designConfiguration name="$l10n_config_TLdecalRed" price="100">
             <objectChange node="decalsBackDoorRed" visibilityActive="true"/>
             <objectChange node="decalsRed" visibilityActive="true"/>
             <objectChange node="decalsBackDoorBlack" visibilityActive="false"/>
@@ -593,8 +592,8 @@
     </designConfigurations>
     <baseMaterial>
         <material name="turboLight_mat" baseNode="turboLight_vis">
-            <shaderParameter name="colorMat0" value="SHARED_BLACK"/>
-            <shaderParameter name="colorMat1" value="SHARED_BLACK"/>
+            <shaderParameter name="colorMat0" value="KRAMPE_RED1"/>
+            <shaderParameter name="colorMat1" value="SHARED_BLACK2"/>
         </material>
     </baseMaterial>
     <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
@@ -643,25 +642,25 @@
     <i3dMappings>
         <i3dMapping id="turboLight_vis" node="0>0"/>
         <i3dMapping id="sideMarker_WhiteR01" node="0>0|5|13|3|2|0"/>
-        <i3dMapping id="sideLightsR01" node="0>0|5|13|3|2|0|0"/>
+        <i3dMapping id="sideLightsR01" node="0>0|5|13|3|2|5"/>
         <i3dMapping id="sideMarker_WhiteR02" node="0>0|5|13|3|2|1"/>
-        <i3dMapping id="sideLightsR02" node="0>0|5|13|3|2|1|0"/>
+        <i3dMapping id="sideLightsR02" node="0>0|5|13|3|2|6"/>
         <i3dMapping id="sideMarker_WhiteR03" node="0>0|5|13|3|2|2"/>
-        <i3dMapping id="sideLightsR03" node="0>0|5|13|3|2|2|0"/>
-        <i3dMapping id="sideMarker_WhiteR04" node=">0|5|13|3|2|3"/>
-        <i3dMapping id="sideLightsR04" node="0>0|5|13|3|2|3|0"/>
+        <i3dMapping id="sideLightsR03" node="0>0|5|13|3|2|7"/>
+        <i3dMapping id="sideMarker_WhiteR04" node="0>0|5|13|3|2|3"/>
+        <i3dMapping id="sideLightsR04" node="0>0|5|13|3|2|8"/>
         <i3dMapping id="sideMarker_WhiteR05" node="0>0|5|13|3|2|4"/>
-        <i3dMapping id="sideLightsR05" node="0>0|5|13|3|2|4|0"/>
+        <i3dMapping id="sideLightsR05" node="0>0|5|13|3|2|9"/>
         <i3dMapping id="sideMarker_WhiteL01" node="0>0|5|13|3|1|0"/>
-        <i3dMapping id="sideLightsL01" node="0>0|5|13|3|1|0|0"/>
+        <i3dMapping id="sideLightsL01" node="0>0|5|13|3|1|5"/>
         <i3dMapping id="sideMarker_WhiteL02" node="0>0|5|13|3|1|1"/>
-        <i3dMapping id="sideLightsL02" node="0>0|5|13|3|1|1|0"/>
+        <i3dMapping id="sideLightsL02" node="0>0|5|13|3|1|6"/>
         <i3dMapping id="sideMarker_WhiteL03" node="0>0|5|13|3|1|2"/>
-        <i3dMapping id="sideLightsL03" node="0>0|5|13|3|1|2|0"/>
+        <i3dMapping id="sideLightsL03" node="0>0|5|13|3|1|7"/>
         <i3dMapping id="sideMarker_WhiteL04" node="0>0|5|13|3|1|3"/>
-        <i3dMapping id="sideLightsL04" node="0>0|5|13|3|1|3|0"/>
+        <i3dMapping id="sideLightsL04" node="0>0|5|13|3|1|8"/>
         <i3dMapping id="sideMarker_WhiteL05" node="0>0|5|13|3|1|4"/>
-        <i3dMapping id="sideLightsL05" node="0>0|5|13|3|1|4|0"/>
+        <i3dMapping id="sideLightsL05" node="0>0|5|13|3|1|9"/>
         <i3dMapping id="BottomLightHigh" node="0>0|5|13|3|0"/>
         <i3dMapping id="reverseLightLeft" node="0>0|4|4"/>
         <i3dMapping id="reverseLightRight" node="0>0|4|5"/>
@@ -742,8 +741,8 @@
         <i3dMapping id="sideMarkerOrangeLeftBack" node="0>0|5|3|3"/>
         <i3dMapping id="sideMarkerOrangeRightMiddle" node="0>0|5|3|4"/>
         <i3dMapping id="sideMarkerOrangeLeftMiddle" node="0>0|5|3|5"/>
-        <i3dMapping id="sideMarkerWhiteRight" node="0>0|5|3|6"/>
-        <i3dMapping id="sideMarkerWhiteLeft" node="0>0|5|3|7"/>
+        <i3dMapping id="sideMarkerWhiteRight" node="0>0|5|3|1"/>
+        <i3dMapping id="sideMarkerWhiteLeft" node="0>0|5|3|0"/>
         <i3dMapping id="hydraulicBackDoor" node="0>0|5|4"/>
         <i3dMapping id="hydraulicBackDoorPunch" node="0>0|5|4|0"/>
         <i3dMapping id="hydraulicBackDoorRefFrame" node="0>0|5|5"/>

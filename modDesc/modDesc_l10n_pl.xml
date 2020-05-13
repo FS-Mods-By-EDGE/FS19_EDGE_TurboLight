@@ -33,6 +33,6 @@
         <text name="config_TLbeaconWork"		text="Ostrzegawcze & Światła robocze"/>
         <text name="config_TLdecalWhite"		text="Biały Piktogramy"/>
         <text name="config_TLdecalBlack"		text="Czarny Piktogramy"/>
-        <text name="config_TLdecalWhite"		text="Czerwony Piktogramy"/>
+        <text name="config_TLdecalRed"		text="Czerwony Piktogramy"/>
 	</texts>
 </l10n>

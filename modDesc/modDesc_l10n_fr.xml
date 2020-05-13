@@ -33,6 +33,6 @@
         <text name="config_TLbeaconWork"		text="Balise & Lumières de travail"/>
         <text name="config_TLdecalWhite"		text="Blanche Décalcomanies"/>
         <text name="config_TLdecalBlack"		text="Noire Décalcomanies"/>
-        <text name="config_TLdecalWhite"		text="rouge Décalcomanies"/>
+        <text name="config_TLdecalRed"		text="rouge Décalcomanies"/>
 	</texts>
 </l10n>
