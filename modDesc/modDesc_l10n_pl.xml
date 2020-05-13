@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_turboLight"		text="Przyczepa ma zaczep z tyłu, aby umożliwić wykonanie pociągu drogowego."/>
+        <text name="name_turboLight" 			text="światło turbo"/>
+        <text name="color_EDGEGOLD" 			text="EDGE ZŁOTO"/>
+        <text name="color_EDGESILVER" 			text="EDGE SREBRO"/>
+        <text name="color_DARKGREY"				text="CIEMNO SZARY"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="CHROM"/>
+        <text name="color_SILVER" 				text="SREBRO"/>
+        <text name="color_DARKBLUECHROME" 		text="CIEMNY NIEBIESKI CHROM"/>
+        <text name="color_ORANGECHROME" 		text="POMARAŃCZOWY CHROM"/>
+        <text name="color_GREENCHROME" 			text="ZIELONY CHROM"/>
+        <text name="color_BLUECHROME" 			text="NIEBIESKI CHROM"/>
+        <text name="color_REDCHROME" 			text="CZERWONY CHROM"/>
+        <text name="configuration_TwinRadial" 	text="Podwójny promieniowy"/>
+        <text name="configuration_CARGOXBIB" 	text="Ładunek"/>
+        <text name="configuration_CXBheavyduty" text="ciężki obowiązek"/>
+        <text name="configuration_rough" 		text="Szorstki"/>
+        <text name="configuration_TwinForestry"	text="Leśnictwo"/>
+        <text name="configuration_Radial"		text="Radial"/>
+        <text name="configuration_wideRadial"	text="Szeroki Radial"/>
+        <text name="configuration_wideXBIB"		text="Szeroki Ładunek"/>
+        <text name="configuration_megaXbib"		text="Poza drogą"/>
+        <text name="configuration_Offroad"		text="Poza drogą"/>
+        <text name="config_TLlights"			text="Światła"/>
+        <text name="config_TLbeacon"			text="Światła ostrzegawcze"/>
+        <text name="config_TLwork"				text="Światła robocze"/>
+        <text name="config_TLnoLight"			text="Bez świateł"/>
+        <text name="config_TLbeaconWork"		text="Ostrzegawcze & Światła robocze"/>
+        <text name="config_TLdecalWhite"		text="Biały Piktogramy"/>
+        <text name="config_TLdecalBlack"		text="Czarny Piktogramy"/>
+        <text name="config_TLdecalWhite"		text="Czerwony Piktogramy"/>
+	</texts>
+</l10n>

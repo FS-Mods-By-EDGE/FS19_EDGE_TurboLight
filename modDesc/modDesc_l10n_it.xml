@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_turboLight"		text="Il rimorchio ha un intoppo nella parte posteriore, per consentire di realizzare un treno stradale."/>
+        <text name="name_turboLight" 			text="Luce turbo"/>
+        <text name="color_EDGEGOLD" 			text="EDGE ORO"/>
+        <text name="color_EDGESILVER" 			text="EDGE ARGENTO"/>
+        <text name="color_DARKGREY"				text="GRIGIO SCURO"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="CROMO"/>
+        <text name="color_SILVER" 				text="ARGENTO"/>
+        <text name="color_DARKBLUECHROME" 		text="CROMO BLU SCURO"/>
+        <text name="color_ORANGECHROME" 		text="CROMO ARANCIA"/>
+        <text name="color_GREENCHROME" 			text="CROMO VERDE"/>
+        <text name="color_BLUECHROME" 			text="CROMO BLU"/>
+        <text name="color_REDCHROME" 			text="CROMO ROSSO"/>
+        <text name="configuration_TwinRadial" 	text="Radiale doppia"/>
+        <text name="configuration_CARGOXBIB" 	text="Carico"/>
+        <text name="configuration_CXBheavyduty" text="Robusto"/>
+        <text name="configuration_rough" 		text="Ruvido"/>
+        <text name="configuration_TwinForestry"	text="Silvicoltura"/>
+        <text name="configuration_Radial"		text="Radial"/>
+        <text name="configuration_wideRadial"	text="Largo Radial"/>
+        <text name="configuration_wideXBIB"		text="Largo Carico"/>
+        <text name="configuration_megaXbib"		text="Fuori strada"/>
+        <text name="configuration_Offroad"		text="Fuori strada"/>
+        <text name="config_TLlights"			text="Luci"/>
+        <text name="config_TLbeacon"			text="Luci di segnalazione"/>
+        <text name="config_TLwork"				text="Luci da lavoro"/>
+        <text name="config_TLnoLight"			text="Senza luci"/>
+        <text name="config_TLbeaconWork"		text="Segnalazione & Luci da lavoro"/>
+        <text name="config_TLdecalWhite"		text="Bianca decalcomanie"/>
+        <text name="config_TLdecalBlack"		text="Nera decalcomanie"/>
+        <text name="config_TLdecalWhite"		text="Rossa decalcomanie"/>
+	</texts>
+</l10n>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_turboLight"		text="The trailer has a hitch in the back, to make it possible to make a road train."/>
+        <text name="name_turboLight" 			text="Turbo Light"/>
+        <text name="color_EDGEGOLD" 			text="EDGE GOLD"/>
+        <text name="color_EDGESILVER" 			text="EDGE SILVER"/>
+        <text name="color_DARKGREY"				text="DARK GREY"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="CHROME"/>
+        <text name="color_SILVER" 				text="SILVER"/>
+        <text name="color_DARKBLUECHROME" 		text="DARK BLUE CHROME"/>
+        <text name="color_ORANGECHROME" 		text="ORANGE CHROME"/>
+        <text name="color_GREENCHROME" 			text="GREEN CHROME"/>
+        <text name="color_BLUECHROME" 			text="BLUE CHROME"/>
+        <text name="color_REDCHROME" 			text="RED CHROME"/>
+        <text name="configuration_TwinRadial" 	text="Twin Radial"/>
+        <text name="configuration_CARGOXBIB" 	text="Cargo"/>
+        <text name="configuration_CXBheavyduty" text="Heavy Duty"/>
+        <text name="configuration_rough" 		text="Rough"/>
+        <text name="configuration_TwinForestry"	text="Forestry"/>
+        <text name="configuration_Radial"		text="Radial"/>
+        <text name="configuration_wideRadial"	text="Wide Radial"/>
+        <text name="configuration_wideXBIB"		text="Wide Cargo"/>
+        <text name="configuration_megaXbib"		text="Offroad"/>
+        <text name="configuration_Offroad"		text="Offroad"/>
+        <text name="config_TLlights"			text="Lights"/>
+        <text name="config_TLbeacon"			text="Beacon Lights"/>
+        <text name="config_TLwork"				text="Work Lights"/>
+        <text name="config_TLnoLight"			text="No Lights"/>
+        <text name="config_TLbeaconWork"		text="Beacon & Work Lights"/>
+        <text name="config_TLdecalWhite"		text="White Decals"/>
+        <text name="config_TLdecalBlack"		text="Black Decals"/>
+        <text name="config_TLdecalWhite"		text="Red Decals"/>
+	</texts>
+</l10n>
