@@ -246,31 +246,31 @@
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="2000" brand="MICHELIN">
                 <wheels>
-                    <wheel filename="wheels/520_85R42.xml" isLeft="true">
+                    <wheel filename="wheels/_750_25_R26_.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <additionalWheel filename="wheels/520_85R42.xml" configId="dual" offset="0.2" >
+                        <additionalWheel filename="wheels/_750_25_R26_.xml" configId="dual" offset="0.2" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
                         </additionalWheel>
                         <wheelChock parkingNode="chock01"/>
                         <wheelChock parkingNode="chock02" isInverted="true"/>
                     </wheel>
-                    <wheel filename="wheels/520_85R42.xml" isLeft="false">
+                    <wheel filename="wheels/_750_25_R26_.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <additionalWheel filename="wheels/520_85R42.xml" configId="dual" offset="0.2" >
+                        <additionalWheel filename="wheels/_750_25_R26_.xml" configId="dual" offset="0.2" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
                         </additionalWheel>
                     </wheel>
-                    <wheel filename="wheels/520_85R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                    <wheel filename="wheels/_750_25_R26_.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
                         <steering node="steeringBar" minTransX="0.125" maxTransX="-0.125"/>
-                        <additionalWheel filename="wheels/520_85R42.xml" configId="dual" offset="0.2" >
+                        <additionalWheel filename="wheels/_750_25_R26_.xml" configId="dual" offset="0.2" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
                         </additionalWheel>
                         <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
                     </wheel>
-                    <wheel filename="wheels/520_85R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                    <wheel filename="wheels/_750_25_R26_.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
-                        <additionalWheel filename="wheels/520_85R42.xml" configId="dual" offset="0.2" >
+                        <additionalWheel filename="wheels/_750_25_R26_.xml" configId="dual" offset="0.2" >
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
                         </additionalWheel>
                         <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
