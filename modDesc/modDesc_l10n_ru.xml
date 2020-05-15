@@ -5,6 +5,7 @@
 	<texts>
 		<text name="function_turboLight"		text="Прицеп имеет заднюю часть сцепки, чтобы можно было сделать автопоезд."/>
         <text name="name_turboLight" 			text="Турбо Лайт"/>
+        <text name="name_turboTrailers" 		text="Турбо Прицепы"/>
         <text name="color_EDGEGOLD" 			text="EDGE ЗОЛОТО"/>
         <text name="color_EDGESILVER" 			text="EDGE СЕРЕБРЯНЫЙ"/>
         <text name="color_DARKGREY"				text="ТЕМНО-СЕРЫЙ"/>
@@ -33,6 +34,9 @@
         <text name="config_TLbeaconWork"		text="Маяковые огни & Рабочие фары"/>
         <text name="config_TLdecalWhite"		text="белый Переводные картинки"/>
         <text name="config_TLdecalBlack"		text="черный Переводные картинки"/>
-        <text name="config_TLdecalRed"		text="красный Переводные картинки"/>
+        <text name="config_TLdecalRed"			text="красный Переводные картинки"/>
+        <text name="config_TLnodecal"			text="Нет Переводные картинки"/>
+        <text name="config_TLattach"			text="Прицепное устройство"/>
+        <text name="config_TLnoattach"			text="Нет Прицепное устройство"/>
 	</texts>
 </l10n>

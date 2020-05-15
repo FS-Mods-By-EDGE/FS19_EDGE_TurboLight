@@ -5,6 +5,7 @@
         <name>$l10n_name_turboLight</name>
         <specs>
             <combination>Truck, Dolly</combination>
+            <combination>$l10n_name_turboTrailers</combination>
         </specs>
         <functions>
             <function>$l10n_function_tipper</function>
@@ -343,7 +344,6 @@
                 <light node="backLightsHigh" lightTypes="0"/>
                 <light node="workLight01" lightTypes="1"/>
                 <light node="workLight02" lightTypes="1"/>
-                <light node="BottomLightHigh" lightTypes="0"/>
                 <turnLightLeft node="turnLightLeftBack"/>
                 <turnLightRight node="turnLightRightBack"/>
                 <brakeLight node="backLightsHigh"/>
@@ -502,19 +502,32 @@
         </dischargeNode>
     </dischargeable>
     <attacherJoints>
-        <attacherJoint node="trailerAttacherJointBack" jointType="trailer" lowerRotLimit="10 50 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
-            <distanceToGround lower="0.57" upper="1.03"/>
-            <transNode node="trailerAttacherNode" minY="0.523" maxY="0.98" height="0.25"/>
-            <schema position="1 0" rotation="0" invertX="false"/>
-            <objectChange node="trailerLowNode" visibilityActive="false" visibilityInactive="true"/>
-        </attacherJoint>
-        <attacherJoint node="trailerAttacherJointBackLow" jointType="trailerLow" lowerRotLimit="10 50 50" lowerTransLimit="0 0 0" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
-            <distanceToGround lower="0.50" upper="1.01"/>
-            <transNode node="trailerLowNode" minY="0.451" maxY="0.951"/>
-            <schema position="1 0" rotation="0" invertX="false"/>
-            <objectChange node="trailerAttacherNode" visibilityActive="false" visibilityInactive="true"/>
-            <steeringBars leftNode="trailerSteeringLeftRef" rightNode="trailerSteeringRightRef"/>
-        </attacherJoint>
+        <attacherJointConfigurations title="$l10n_config_TLattach">
+			<attacherJointConfiguration name="$l10n_config_TLattach">
+                <attacherJoint node="trailerAttacherJointBackLow" jointType="trailerLow" lowerRotLimit="10 50 50" lowerTransLimit="0 0 0" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.50" upper="1.01"/>
+                    <transNode node="trailerLowNode" minY="0.451" maxY="0.951"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <objectChange node="trailerAttacherNode" visibilityActive="false" visibilityInactive="true"/>
+                    <steeringBars leftNode="trailerSteeringLeftRef" rightNode="trailerSteeringRightRef"/>
+                </attacherJoint>
+                <attacherJoint node="trailerAttacherJointBackLow" jointType="trailerLow" lowerRotLimit="10 50 50" lowerTransLimit="0 0 0" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.50" upper="1.01"/>
+                    <transNode node="trailerLowNode" minY="0.451" maxY="0.951"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <objectChange node="trailerAttacherNode" visibilityActive="false" visibilityInactive="true"/>
+                    <steeringBars leftNode="trailerSteeringLeftRef" rightNode="trailerSteeringRightRef"/>
+                </attacherJoint>
+                <powerTakeOffs>
+                    <output attacherJointIndices="2 3" outputNode="ptoBack"/>
+                </powerTakeOffs>
+                <powerConsumer ptoRpm="300" neededMaxPtoPower="50"/>
+                <objectChange node="attacherJoints" visibilityActive="true"/>
+			</attacherJointConfiguration>
+			<attacherJointConfiguration name="$l10n_config_TLnoattach">
+				<objectChange node="attacherJoints" visibilityActive="false"/>
+			</attacherJointConfiguration>
+		</attacherJointConfigurations>
         <sounds>
             <attach template="ATTACH_01"/>
             <hydraulic template="DEFAULT_HYDRAULIC_SOUND"/>
@@ -589,6 +602,14 @@
             <objectChange node="decalsBackDoorWhite" visibilityActive="false"/>
             <objectChange node="decalsWhite" visibilityActive="false"/>
         </designConfiguration>
+        <designConfiguration name="$l10n_config_TLnodecal" price="200">
+            <objectChange node="decalsBackDoorRed" visibilityActive="false"/>
+            <objectChange node="decalsRed" visibilityActive="false"/>
+            <objectChange node="decalsBackDoorBlack" visibilityActive="false"/>
+            <objectChange node="decalsBlack" visibilityActive="false"/>
+            <objectChange node="decalsBackDoorWhite" visibilityActive="false"/>
+            <objectChange node="decalsWhite" visibilityActive="false"/>
+        </designConfiguration>
     </designConfigurations>
     <baseMaterial>
         <material name="turboLight_mat" baseNode="turboLight_vis">
@@ -641,6 +662,8 @@
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
     <i3dMappings>
         <i3dMapping id="turboLight_vis" node="0>0"/>
+        <i3dMapping id="attacherJoints" node="0>2"/>
+        <i3dMapping id="ptoBack" node="0>2|2"/>
         <i3dMapping id="sideMarker_WhiteR01" node="0>0|5|13|3|2|0"/>
         <i3dMapping id="sideLightsR01" node="0>0|5|13|3|2|5"/>
         <i3dMapping id="sideMarker_WhiteR02" node="0>0|5|13|3|2|1"/>
@@ -661,7 +684,6 @@
         <i3dMapping id="sideLightsL04" node="0>0|5|13|3|1|8"/>
         <i3dMapping id="sideMarker_WhiteL05" node="0>0|5|13|3|1|4"/>
         <i3dMapping id="sideLightsL05" node="0>0|5|13|3|1|9"/>
-        <i3dMapping id="BottomLightHigh" node="0>0|5|13|3|0"/>
         <i3dMapping id="reverseLightLeft" node="0>0|4|4"/>
         <i3dMapping id="reverseLightRight" node="0>0|4|5"/>
         <i3dMapping id="beaconLight01" node="0>0|5|13|0|0"/>

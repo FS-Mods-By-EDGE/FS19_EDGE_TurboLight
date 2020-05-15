@@ -5,6 +5,7 @@
 	<texts>
 		<text name="function_turboLight"		text="Przyczepa ma zaczep z tyłu, aby umożliwić wykonanie pociągu drogowego."/>
         <text name="name_turboLight" 			text="światło turbo"/>
+        <text name="name_turboTrailers" 		text="Przyczepy Turbo"/>
         <text name="color_EDGEGOLD" 			text="EDGE ZŁOTO"/>
         <text name="color_EDGESILVER" 			text="EDGE SREBRO"/>
         <text name="color_DARKGREY"				text="CIEMNO SZARY"/>
@@ -33,6 +34,9 @@
         <text name="config_TLbeaconWork"		text="Ostrzegawcze & Światła robocze"/>
         <text name="config_TLdecalWhite"		text="Biały Piktogramy"/>
         <text name="config_TLdecalBlack"		text="Czarny Piktogramy"/>
-        <text name="config_TLdecalRed"		text="Czerwony Piktogramy"/>
+        <text name="config_TLdecalRed"			text="Czerwony Piktogramy"/>
+        <text name="config_TLnodecal"			text="Bez Piktogramy"/>
+        <text name="config_TLattach"			text="Hak holowniczy"/>
+        <text name="config_TLnoattach"			text="Bez Hak holowniczy"/>
 	</texts>
 </l10n>

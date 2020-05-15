@@ -5,6 +5,7 @@
 	<texts>
 		<text name="function_turboLight"		text="La remorque a un attelage à l'arrière, pour permettre de faire un train routier."/>
         <text name="name_turboLight" 			text="Turbo Light"/>
+        <text name="name_turboTrailers" 		text="Remorques turbo"/>
         <text name="color_EDGEGOLD" 			text="EDGE OR"/>
         <text name="color_EDGESILVER" 			text="EDGE ARGENT"/>
         <text name="color_DARKGREY"				text="GRIS FONCÉ"/>
@@ -33,6 +34,9 @@
         <text name="config_TLbeaconWork"		text="Balise & Lumières de travail"/>
         <text name="config_TLdecalWhite"		text="Blanche Décalcomanies"/>
         <text name="config_TLdecalBlack"		text="Noire Décalcomanies"/>
-        <text name="config_TLdecalRed"		text="rouge Décalcomanies"/>
+        <text name="config_TLdecalRed"			text="rouge Décalcomanies"/>
+        <text name="config_TLnodecal"			text="Pas de Décalcomanies"/>
+        <text name="config_TLattach"			text="Attelage de remorque"/>
+        <text name="config_TLnoattach"			text="Pas de Attelage de remorque"/>
 	</texts>
 </l10n>

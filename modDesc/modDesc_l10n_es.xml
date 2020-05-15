@@ -5,6 +5,7 @@
 	<texts>
 		<text name="function_turboLight"		text="El remolque tiene un enganche en la parte posterior, para que sea posible hacer un tren de carretera."/>
         <text name="name_turboLight" 			text="Luz turbo"/>
+        <text name="name_turboTrailers" 		text="Turbo Remolques"/>
         <text name="color_EDGEGOLD" 			text="EDGE ORO"/>
         <text name="color_EDGESILVER" 			text="EDGE PLATA"/>
         <text name="color_DARKGREY"				text="GRIS OSCURO"/>
@@ -33,6 +34,9 @@
         <text name="config_TLbeaconWork"		text="Baliza & Luces de trabajo"/>
         <text name="config_TLdecalWhite"		text="Blanca Calcomanías"/>
         <text name="config_TLdecalBlack"		text="Negra Calcomanías"/>
-        <text name="config_TLdecalRed"		text="Roja Calcomanías"/>
+        <text name="config_TLdecalRed"			text="Roja Calcomanías"/>
+        <text name="config_TLnodecal"			text="Sin Calcomanías"/>
+        <text name="config_TLattach"			text="Enganche de remolque"/>
+        <text name="config_TLnoattach"			text="Sin Enganche de remolque"/>
 	</texts>
 </l10n>

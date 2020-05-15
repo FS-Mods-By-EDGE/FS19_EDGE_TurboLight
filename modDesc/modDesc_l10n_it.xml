@@ -5,6 +5,7 @@
 	<texts>
 		<text name="function_turboLight"		text="Il rimorchio ha un intoppo nella parte posteriore, per consentire di realizzare un treno stradale."/>
         <text name="name_turboLight" 			text="Luce turbo"/>
+        <text name="name_turboTrailers" 		text="Rimorchi turbo"/>
         <text name="color_EDGEGOLD" 			text="EDGE ORO"/>
         <text name="color_EDGESILVER" 			text="EDGE ARGENTO"/>
         <text name="color_DARKGREY"				text="GRIGIO SCURO"/>
@@ -33,6 +34,9 @@
         <text name="config_TLbeaconWork"		text="Segnalazione & Luci da lavoro"/>
         <text name="config_TLdecalWhite"		text="Bianca decalcomanie"/>
         <text name="config_TLdecalBlack"		text="Nera decalcomanie"/>
-        <text name="config_TLdecalRed"		text="Rossa decalcomanie"/>
+        <text name="config_TLdecalRed"			text="Rossa decalcomanie"/>
+        <text name="config_TLnodecal"			text="Senza decalcomanie"/>
+        <text name="config_TLattach"			text="Gancio traino"/>
+        <text name="config_TLnoattach"			text="Senza Gancio traino"/>
 	</texts>
 </l10n>

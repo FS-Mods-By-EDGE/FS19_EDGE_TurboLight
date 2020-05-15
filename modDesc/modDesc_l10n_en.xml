@@ -5,6 +5,7 @@
 	<texts>
 		<text name="function_turboLight"		text="The trailer has a hitch in the back, to make it possible to make a road train."/>
         <text name="name_turboLight" 			text="Turbo Light"/>
+        <text name="name_turboTrailers" 		text="Turbo Trailers"/>
         <text name="color_EDGEGOLD" 			text="EDGE GOLD"/>
         <text name="color_EDGESILVER" 			text="EDGE SILVER"/>
         <text name="color_DARKGREY"				text="DARK GREY"/>
@@ -34,5 +35,8 @@
         <text name="config_TLdecalWhite"		text="White Decals"/>
         <text name="config_TLdecalBlack"		text="Black Decals"/>
         <text name="config_TLdecalRed"			text="Red Decals"/>
+        <text name="config_TLnodecal"			text="No Decals"/>
+        <text name="config_TLattach"			text="Trailer Hitch"/>
+        <text name="config_TLnoattach"			text="No Trailer Hitch"/>
 	</texts>
 </l10n>
