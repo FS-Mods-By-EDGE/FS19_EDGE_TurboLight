@@ -281,7 +281,7 @@
         </wheelConfigurations>
         <hubs>
             <color0 useBaseColor="true"/>
-            <color1 useBaseColor="true"/>
+            <color1>SHARED_GREY5</color1>
             <hub linkNode="wheelFrontLeft" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
             <hub linkNode="wheelFrontRight" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
             <hub linkNode="wheelBackLeft" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
