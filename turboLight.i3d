@@ -35,21 +35,24 @@
   <Materials>
     <Material name="turboLight" materialId="4" diffuseColor="0.521569 0.521569 0.521569 1">
     </Material>
-    <Material name="turboLight_mat" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
-      <Normalmap fileId="3"/>
-      <Glossmap fileId="4"/>
+    <Material name="turboLight_mat" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="turboLightCover_mat" materialId="12" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
       <CustomParameter name="RDT" value="1 1 0 0"/>
       <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
-      <CustomParameter name="colorMat0" value="0.6388 0.0103 0.0103 0"/>
-      <CustomParameter name="colorMat1" value="0.0399 0.0399 0.0399 0"/>
-      <CustomParameter name="colorMat2" value="0.7379 0.7379 0.7379 0"/>
-      <CustomParameter name="colorMat3" value="0.1 0.1 1 3"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
       <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
       <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
-    <Material name="turboLightChain_mat" materialId="13" customShaderId="5" customShaderVariation="colorMask">
+    <Material name="turboLightChain_mat" materialId="14" customShaderId="5" customShaderVariation="colorMask">
       <Texture fileId="23"/>
       <Normalmap fileId="24"/>
       <Glossmap fileId="25"/>
@@ -64,21 +67,21 @@
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
-    <Material name="turboLightRearHith_mat" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
-      <Normalmap fileId="26"/>
-      <Glossmap fileId="27"/>
+    <Material name="turboLight_mat" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
       <CustomParameter name="RDT" value="1 1 0 0"/>
       <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
-      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
-      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
-      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
-      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat0" value="0.6388 0.0103 0.0103 0"/>
+      <CustomParameter name="colorMat1" value="0.0399 0.0399 0.0399 0"/>
+      <CustomParameter name="colorMat2" value="0.7379 0.7379 0.7379 0"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 3"/>
       <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
       <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
-    <Material name="turboLightDecals_mat" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="Decal_colorMask">
+    <Material name="turboLightDecals_mat" materialId="10" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="Decal_colorMask">
       <Normalmap fileId="9"/>
       <Glossmap fileId="10"/>
       <CustomParameter name="RDT" value="1 1 0 0"/>
@@ -92,10 +95,46 @@
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
-    <Material name="decals_mat" materialId="10">
+    <Material name="assetLibraryDecals_mat" materialId="13" specularColor="0.494118 1 0.494118" customShaderId="5" customShaderVariation="Decal_colorMask">
+      <Texture fileId="17"/>
+      <Normalmap fileId="18"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="decals_mat" materialId="7">
       <Texture fileId="11"/>
       <Normalmap fileId="12"/>
       <Glossmap fileId="13"/>
+    </Material>
+    <Material name="turboLightDecals2_difuse_mat" materialId="15" alphaBlending="true" customShaderId="5" customShaderVariation="Decal">
+      <Texture fileId="14"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="turboLightFloorGrid_difuse_mat" materialId="6" customShaderId="5" customShaderVariation="colorMask">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <Glossmap fileId="22"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.0399 0.0399 0.0399 0"/>
+      <CustomParameter name="colorMat1" value="0.0399 0.0399 0.0399 0"/>
+      <CustomParameter name="colorMat2" value="0.0399 0.0399 0.0399 0"/>
+      <CustomParameter name="colorMat3" value="0.0399 0.0399 0.0399 0"/>
+      <CustomParameter name="colorMat4" value="0.0399 0.0399 0.0399 0"/>
+      <CustomParameter name="colorMat5" value="0.0399 0.0399 0.0399 0"/>
+      <CustomParameter name="colorMat6" value="0.0399 0.0399 0.0399 0"/>
+      <CustomParameter name="colorMat7" value="0.0399 0.0399 0.0399 0"/>
     </Material>
     <Material name="towBar_mat" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
       <Normalmap fileId="28"/>
@@ -111,27 +150,9 @@
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
-    <Material name="turboLight_mat" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
-      <Normalmap fileId="9"/>
-    </Material>
-    <Material name="turboLightFloorGrid_difuse_mat" materialId="11" customShaderId="5" customShaderVariation="colorMask">
-      <Texture fileId="20"/>
-      <Normalmap fileId="21"/>
-      <Glossmap fileId="22"/>
-      <CustomParameter name="RDT" value="1 1 0 0"/>
-      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
-      <CustomParameter name="colorMat0" value="0.0399 0.0399 0.0399 0"/>
-      <CustomParameter name="colorMat1" value="0.0399 0.0399 0.0399 0"/>
-      <CustomParameter name="colorMat2" value="0.0399 0.0399 0.0399 0"/>
-      <CustomParameter name="colorMat3" value="0.0399 0.0399 0.0399 0"/>
-      <CustomParameter name="colorMat4" value="0.0399 0.0399 0.0399 0"/>
-      <CustomParameter name="colorMat5" value="0.0399 0.0399 0.0399 0"/>
-      <CustomParameter name="colorMat6" value="0.0399 0.0399 0.0399 0"/>
-      <CustomParameter name="colorMat7" value="0.0399 0.0399 0.0399 0"/>
-    </Material>
-    <Material name="assetLibraryDecals_mat" materialId="15" specularColor="0.494118 1 0.494118" customShaderId="5" customShaderVariation="Decal_colorMask">
-      <Texture fileId="17"/>
-      <Normalmap fileId="18"/>
+    <Material name="turboLightRearHith_mat" materialId="11" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="27"/>
       <CustomParameter name="RDT" value="1 1 0 0"/>
       <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
       <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
@@ -142,27 +163,6 @@
       <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
-    </Material>
-    <Material name="turboLightCover_mat" materialId="14" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
-      <Normalmap fileId="15"/>
-      <Glossmap fileId="16"/>
-      <CustomParameter name="RDT" value="1 1 0 0"/>
-      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
-      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
-      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
-      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
-      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
-      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
-      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
-      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
-      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
-    </Material>
-    <Material name="turboLightDecals2_difuse_mat" materialId="12" alphaBlending="true" customShaderId="5" customShaderVariation="Decal">
-      <Texture fileId="14"/>
-      <Normalmap fileId="9"/>
-      <Glossmap fileId="10"/>
-      <CustomParameter name="RDT" value="1 1 0 0"/>
-      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
     </Material>
   </Materials>
 
@@ -176,231 +176,243 @@
 
   <Scene>
     <Shape shapeId="1" name="turboLight_main_component1" dynamic="true" compound="true" collisionMask="8397058" clipDistance="300" nodeId="61" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
-      <Shape shapeId="2" name="turboLight_vis" translation="0 -6.21725e-17 0" nodeId="62" materialIds="9" castsShadows="true" receiveShadows="true" skinBindNodeIds="62 67 69 70 73 75 76 78 89 105 108 110 111 123 124 206 207 208 209 210 212 213">
+      <Shape shapeId="2" name="turboLight_vis" translation="0 -6.21725e-17 0" nodeId="62" materialIds="9" castsShadows="true" receiveShadows="true" skinBindNodeIds="62 69 72 73 76 79 80 82 93 111 114 116 117 129 130 211 212 213 214 215 217 218">
         <TransformGroup name="wheels" nodeId="63">
-          <TransformGroup name="wheelFrontLeft" translation="1.0206 0.8205 -1.768" nodeId="64"/>
-          <TransformGroup name="wheelFrontRight" translation="-1.0206 0.8205 -1.768" nodeId="65"/>
-          <TransformGroup name="axisBackLeftRot" translation="0.743887 0.820728 -3.46456" rotation="-10 0 0" nodeId="66">
-            <TransformGroup name="axisBackLeft" translation="1.42109e-16 -6.05634e-15 1.79798e-14" nodeId="67">
-              <TransformGroup name="wheelBackLeft" translation="0.276713 0.0243362 -0.139328" nodeId="68"/>
-              <TransformGroup name="damperLeft" translation="-0.00675136 -0.0170308 -0.346829" rotation="78.0955 -79.695 -75.8785" nodeId="69">
-                <TransformGroup name="damperLeftPunch" translation="-6.25278e-15 -8.52651e-16 0.518355" nodeId="70"/>
+          <TransformGroup name="wheelFrontLeft" translation="1.021 0.821 -1.768" nodeId="64">
+            <TransformGroup name="hubFrontLeft" nodeId="65"/>
+          </TransformGroup>
+          <TransformGroup name="wheelFrontRight" translation="-1.0206 0.8205 -1.768" nodeId="66">
+            <TransformGroup name="hubFrontRight" nodeId="67"/>
+          </TransformGroup>
+          <TransformGroup name="axisBackLeftRot" translation="0.743887 0.820728 -3.46456" rotation="-10 0 0" nodeId="68">
+            <TransformGroup name="axisBackLeft" translation="1.42109e-16 -6.05634e-15 1.79798e-14" nodeId="69">
+              <TransformGroup name="wheelBackLeft" translation="0.277 0.024 -0.139" nodeId="70">
+                <TransformGroup name="hubBackLeft" nodeId="71"/>
               </TransformGroup>
-              <Shape shapeId="3" name="steeringLeft" translation="-0.00973543 0.0587251 -0.332711" rotation="75.8837 -79.6997 -75.9856" clipDistance="50" nodeId="71" materialIds="9" castsShadows="true" receiveShadows="true"/>
+              <TransformGroup name="damperLeft" translation="-0.00675136 -0.0170308 -0.346829" rotation="78.0955 -79.695 -75.8785" nodeId="72">
+                <TransformGroup name="damperLeftPunch" translation="-6.25278e-15 -8.52651e-16 0.518355" nodeId="73"/>
+              </TransformGroup>
+              <Shape shapeId="3" name="steeringLeft" translation="-0.00973543 0.0587251 -0.333" rotation="75.8837 -79.6997 -75.9856" clipDistance="50" nodeId="74" materialIds="9" castsShadows="true" receiveShadows="true"/>
             </TransformGroup>
           </TransformGroup>
-          <TransformGroup name="axisBackRightRot" translation="-0.743887 0.820728 -3.46456" rotation="-10 0 0" nodeId="72">
-            <TransformGroup name="axisBackRight" translation="0 -4.66564e-15 1.41846e-14" nodeId="73">
-              <TransformGroup name="wheelBackRight" translation="-0.276713 0.0243362 -0.139328" nodeId="74"/>
-              <TransformGroup name="damperRight" translation="0.00675136 -0.0170308 -0.346829" rotation="78.0955 79.695 75.8785" nodeId="75">
-                <TransformGroup name="damperRightPunch" translation="2.44427e-14 -2.41585e-15 0.518355" nodeId="76"/>
+          <TransformGroup name="axisBackRightRot" translation="-0.743887 0.820728 -3.46456" rotation="-10 0 0" nodeId="75">
+            <TransformGroup name="axisBackRight" translation="0 -4.66564e-15 1.41846e-14" nodeId="76">
+              <TransformGroup name="wheelBackRight" translation="-0.277 0.024 -0.139" nodeId="77">
+                <TransformGroup name="hubBackRight" nodeId="78"/>
               </TransformGroup>
-              <Shape shapeId="4" name="steeringRight" translation="0.00973543 0.0587251 -0.332711" rotation="75.8837 79.6997 75.9856" clipDistance="50" nodeId="77" materialIds="9" castsShadows="true" receiveShadows="true"/>
+              <TransformGroup name="damperRight" translation="0.00675136 -0.0170308 -0.346829" rotation="78.0955 79.695 75.8785" nodeId="79">
+                <TransformGroup name="damperRightPunch" translation="2.44427e-14 -2.41585e-15 0.518355" nodeId="80"/>
+              </TransformGroup>
+              <Shape shapeId="4" name="steeringRight" translation="0.00973543 0.0587251 -0.332711" rotation="75.8837 79.6997 75.9856" clipDistance="50" nodeId="81" materialIds="9" castsShadows="true" receiveShadows="true"/>
             </TransformGroup>
           </TransformGroup>
-          <TransformGroup name="steeringBar" translation="9.53674e-09 0.823627 -3.78703" nodeId="78">
-            <TransformGroup name="steeringLeftRef" translation="0.313796 -0.000498848 0.00283127" rotation="-0.319012 -87.5182 0" nodeId="79"/>
-            <TransformGroup name="steeringRightRef" translation="-0.313796 -0.000498848 0.00283127" rotation="-0.319012 -87.5182 -5.73843e-16" nodeId="80"/>
+          <TransformGroup name="steeringBar" translation="9.53674e-09 0.823627 -3.78703" nodeId="82">
+            <TransformGroup name="steeringLeftRef" translation="0.313796 -0.000498848 0.00283127" rotation="-0.319012 -87.5182 0" nodeId="83"/>
+            <TransformGroup name="steeringRightRef" translation="-0.313796 -0.000498848 0.00283127" rotation="-0.319012 -87.5182 -5.73843e-16" nodeId="84"/>
           </TransformGroup>
-          <TransformGroup name="damperLeftRef" translation="0.21959 0.725656 -3.78056" rotation="1.9981 -87.4985 4.55456e-15" nodeId="81"/>
-          <TransformGroup name="damperRightRef" translation="-0.21959 0.725656 -3.78056" nodeId="82"/>
+          <TransformGroup name="damperLeftRef" translation="0.21959 0.725656 -3.78056" rotation="1.9981 -87.4985 4.55456e-15" nodeId="85"/>
+          <TransformGroup name="damperRightRef" translation="-0.21959 0.725656 -3.78056" nodeId="86"/>
         </TransformGroup>
-        <TransformGroup name="attacherJoint" translation="0 1.42034 3.48765" rotation="0 90 0" nodeId="83"/>
-        <TransformGroup name="wheelChocks" translation="0 6.21725e-17 0" nodeId="84">
-          <TransformGroup name="chockSupport01" translation="0.558494 1.43469 0.224108" rotation="0 0 -90" nodeId="85"/>
-          <TransformGroup name="chock01" translation="0.563488 1.435 0.0531764" rotation="0 0 -90" nodeId="86"/>
-          <TransformGroup name="chockSupport02" translation="-0.563166 1.43469 0.224108" rotation="0 0 90" nodeId="87"/>
-          <TransformGroup name="chock02" translation="-0.558172 1.435 0.0531764" rotation="0 0 90" nodeId="88"/>
+        <TransformGroup name="attacherJoint" translation="0 1.42034 3.48765" rotation="0 90 0" nodeId="87"/>
+        <TransformGroup name="wheelChocks" translation="0 6.21725e-17 0" nodeId="88">
+          <TransformGroup name="chockSupport01" translation="0.558494 1.43469 0.224108" rotation="0 0 -90" nodeId="89"/>
+          <TransformGroup name="chock01" translation="0.563488 1.435 0.0531764" rotation="0 0 -90" nodeId="90"/>
+          <TransformGroup name="chockSupport02" translation="-0.563166 1.43469 0.224108" rotation="0 0 90" nodeId="91"/>
+          <TransformGroup name="chock02" translation="-0.558172 1.435 0.0531764" rotation="0 0 90" nodeId="92"/>
         </TransformGroup>
-        <TransformGroup name="support" translation="0 0 0.9889" nodeId="89">
-          <Shape shapeId="5" name="supportCol" translation="0 0.345063 -0.0685575" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="90" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="support" translation="0 0 0.9889" nodeId="93">
+          <Shape shapeId="5" name="supportCol" translation="0 0.345063 -0.0685575" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="94" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </TransformGroup>
-        <TransformGroup name="lights" nodeId="91">
-          <TransformGroup name="sharedLights" translation="0 6.21725e-17 0" nodeId="92">
-            <TransformGroup name="threeChamberLightLeft" translation="0.875347 1.18826 -4.5066" rotation="90 180 0" scale="1.20201 1.20201 1.20201" static="true" nodeId="93"/>
-            <TransformGroup name="threeChamberLightRight" translation="-0.875 1.18799 -4.507" rotation="90 180 0" scale="1.202 1.202 1.202" static="true" nodeId="94"/>
-            <TransformGroup name="backRedPoint01" translation="0.986739 0.87117 -4.52095" rotation="90 180 0" nodeId="95"/>
-            <TransformGroup name="backRedPoint02" translation="-0.987 0.87117 -4.52095" rotation="90 180 0" nodeId="96"/>
-            <TransformGroup name="sideMarkerLeft" translation="1.16031 1.20469 -4.55336" rotation="0 0 -90" nodeId="97"/>
-            <TransformGroup name="sideMarkerRight" translation="-1.16 1.205 -4.553" rotation="0 0 90" nodeId="98"/>
+        <TransformGroup name="lights" nodeId="95">
+          <TransformGroup name="sharedLights" translation="0 6.21725e-17 0" nodeId="96">
+            <TransformGroup name="threeChamberLightLeft" translation="0.875347 1.18826 -4.5066" rotation="90 180 0" scale="1.20201 1.20201 1.20201" static="true" nodeId="97"/>
+            <TransformGroup name="threeChamberLightRight" translation="-0.875 1.18799 -4.507" rotation="90 180 0" scale="1.202 1.202 1.202" static="true" nodeId="98"/>
+            <TransformGroup name="backRedPoint01" translation="0.986739 0.87117 -4.52095" rotation="90 180 0" nodeId="99"/>
+            <TransformGroup name="backRedPoint02" translation="-0.987 0.87117 -4.52095" rotation="90 180 0" nodeId="100"/>
+            <TransformGroup name="sideMarkerLeft" translation="1.16031 1.20469 -4.55336" rotation="0 0 -90" nodeId="101"/>
+            <TransformGroup name="sideMarkerRight" translation="-1.16 1.205 -4.553" rotation="0 0 90" nodeId="102"/>
           </TransformGroup>
-          <Light name="backLightsHigh" translation="-0.827 1.18239 -4.74563" rotation="-15 20 4.23084e-16" clipDistance="75" nodeId="99" type="spot" color="0.5 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="170" dropOff="2">
-            <Light name="backLightsHigh2" translation="1.55425 -0.146 0.546426" rotation="0 -40 0" clipDistance="75" nodeId="100" type="spot" color="0.5 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="170" dropOff="2"/>
+          <Light name="backLightsHigh" translation="-0.827 1.18239 -4.74563" rotation="-15 20 4.23084e-16" clipDistance="75" nodeId="103" type="spot" color="0.5 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="170" dropOff="2">
+            <Light name="backLightsHigh2" translation="1.55425 -0.146 0.546426" rotation="0 -40 0" clipDistance="75" nodeId="104" type="spot" color="0.5 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="170" dropOff="2"/>
           </Light>
-          <Light name="turnLightLeftBack" translation="0.826703 1.18315 -4.69541" rotation="-8 -5 -4.9886e-17" clipDistance="75" nodeId="101" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="4" coneAngle="140" dropOff="3"/>
-          <Light name="turnLightRightBack" translation="-0.827 1.18315 -4.73162" rotation="-8 5 4.9886e-17" clipDistance="75" nodeId="102" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="4" coneAngle="140" dropOff="3"/>
-          <Light name="reverseLightLeft" translation="0.826703 1.18315 -4.69541" rotation="-8 -5 -4.9886e-17" clipDistance="75" nodeId="103" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="150" dropOff="3"/>
-          <Light name="reverseLightRight" translation="-0.827 1.18315 -4.73162" rotation="-8 5 4.9886e-17" clipDistance="75" nodeId="104" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="150" dropOff="3"/>
-        </TransformGroup>
-        <TransformGroup name="body" translation="-1.52588e-07 1.51818 -4.47688" nodeId="105">
-          <TransformGroup name="hydraulicBodyRef" translation="1.52588e-07 0.594818 9.31198" rotation="-90 0 0" nodeId="106"/>
-          <TransformGroup name="tipArmRef" translation="1.52588e-07 0.0482183 2.85248" rotation="0.0437086 180 0" nodeId="107"/>
-          <TransformGroup name="backDoor" translation="1.52588e-07 2.22022 0.0131771" nodeId="108">
-            <TransformGroup name="hydraulicBackDoorRef" translation="0 -0.198782 -0.12163" rotation="-75 0 0" nodeId="109"/>
-            <TransformGroup name="grainDoorArm" translation="-0.297439 -1.39925 -0.749969" rotation="41.531 90 0" nodeId="110"/>
-            <TransformGroup name="grainDoor" translation="0 -1.78442 -0.719969" nodeId="111">
-              <TransformGroup name="grainDoorArmRef" translation="-0.005075 0.126421 -0.0300006" nodeId="112"/>
-            </TransformGroup>
-            <Shape shapeId="6" name="decal_reflectorsBackDoor" translation="0.00162071 -1.70985 -0.671298" clipDistance="75" nodeId="113" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="7" name="decalsBackDoorBlack" translation="0 -3.7384 4.4637" visibility="false" clipDistance="300" nodeId="114" materialIds="10" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="8" name="decals_sings1" translation="0.0212669 -2.04535 -0.729871" clipDistance="50" nodeId="115" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="9" name="decal_reflectorsBackDoor1" translation="0.00162071 -1.70985 -0.671298" clipDistance="75" nodeId="116" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="10" name="colPart5" translation="0 -1.04437 -0.671813" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="117" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-            <Shape shapeId="11" name="decalsBackDoorWhite" translation="0 -3.7384 4.4637" clipDistance="300" nodeId="118" materialIds="10" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="12" name="decalsBackDoorRed" translation="0 -3.7384 4.4637" visibility="false" clipDistance="300" nodeId="119" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          </TransformGroup>
-          <TransformGroup name="frontLights" translation="1.52588e-07 -1.51818 4.47688" nodeId="120">
-            <TransformGroup name="sideMarkerWhiteLeft" translation="1.23334 1.69164 4.62118" rotation="90 0 -90" nodeId="121"/>
-            <TransformGroup name="sideMarkerWhiteRight" translation="-1.233 1.692 4.621" rotation="90 0 90" nodeId="122"/>
-          </TransformGroup>
-          <TransformGroup name="hydraulicBackDoor" translation="1.52588e-07 1.2864 -0.305405" rotation="-75 0 0" nodeId="123">
-            <TransformGroup name="hydraulicBackDoorPunch" translation="0 2.55795e-14 0.760962" nodeId="124"/>
-          </TransformGroup>
-          <TransformGroup name="hydraulicBackDoorRefFrame" translation="1.52588e-07 2.02144 -0.108453" rotation="-75 0 0" nodeId="125"/>
-          <TransformGroup name="coverBase" translation="1.52588e-07 -1.41689 4.47688" nodeId="126">
-            <Shape shapeId="13" name="cover_open" translation="-1.26965 3.7793 -0.0444066" visibility="false" clipDistance="75" nodeId="127" materialIds="14" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="14" name="cover_closed" translation="0 -8.52651e-16 0" clipDistance="300" nodeId="128" materialIds="14" castsShadows="true" receiveShadows="true"/>
-          </TransformGroup>
-          <TransformGroup name="fillVolume" translation="1.52588e-07 -1.51818 4.47688" nodeId="129">
-            <Shape shapeId="15" name="exactFillRootNode" translation="0 2.75832 -0.274858" kinematic="true" compound="true" collisionMask="1073741824" nodeId="130" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-            <TransformGroup name="fillAutoAimTarget" translation="0 3.95792 0" nodeId="131"/>
-            <Shape shapeId="16" name="fillVolume" translation="0 1.72614 -0.302619" clipDistance="300" nodeId="132" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-            <TransformGroup name="fillVolumeHeightNodeBack1" translation="0.599956 3.7 -4.91042" nodeId="133"/>
-            <TransformGroup name="fillVolumeHeightNodeBack2" translation="-0.6 3.7 -4.91042" nodeId="134"/>
-            <TransformGroup name="fillVolumeUnloadInfo" translation="0 2.57972 4.54215" nodeId="135"/>
-          </TransformGroup>
-          <TransformGroup name="effects" translation="1.52588e-07 -1.51818 4.47688" nodeId="136">
-            <TransformGroup name="particleBack" translation="0 1.76209 -5.10687" nodeId="137">
-              <TransformGroup name="effectNodesBack" translation="0 0 5.68434e-16" nodeId="138">
-                <Shape shapeId="17" name="effectGrainBack" translation="0 0 0.0468919" clipDistance="300" nodeId="139" materialIds="6" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="18" name="effectSmokeBack" visibility="false" clipDistance="300" nodeId="140" materialIds="6" castsShadows="true" receiveShadows="true"/>
-              </TransformGroup>
-              <TransformGroup name="particleNodeBack" translation="0 0 5.68434e-16" nodeId="141">
-                <Shape shapeId="19" name="effectParticleBack" translation="-4.5127e-24 0.00783513 -0.0126961" rotation="0 180 0" clipDistance="300" nodeId="142" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-              </TransformGroup>
-            </TransformGroup>
-            <TransformGroup name="particleBackGrainDoor" translation="0 1.74689 -4.72446" nodeId="143">
-              <TransformGroup name="effectNodesBackGrainDoor" translation="3.84535e-15 0.03748 -0.462874" nodeId="144">
-                <Shape shapeId="20" name="effectGrainDoor" translation="-5.04871e-31 0 0" visibility="false" clipDistance="300" nodeId="145" materialIds="6" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="21" name="effectSmokeDoor" translation="-5.04871e-31 0 0" visibility="false" clipDistance="300" nodeId="146" materialIds="6" castsShadows="true" receiveShadows="true"/>
-              </TransformGroup>
-              <TransformGroup name="particleNodeBackGrainDoor" translation="0 0 5.68434e-16" nodeId="147">
-                <Shape shapeId="22" name="effectParticleDoor" translation="1.33672e-15 0.264094 -0.410574" rotation="0 180 0" clipDistance="300" nodeId="148" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-              </TransformGroup>
-            </TransformGroup>
-          </TransformGroup>
-          <Shape shapeId="23" name="colPart1" translation="1.52588e-07 -0.247366 4.47688" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="149" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <Shape shapeId="24" name="colPart2" translation="-1.19934 1.17543 4.23193" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="150" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <Shape shapeId="25" name="colPart3" translation="1.199 1.17543 4.23193" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="151" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <Shape shapeId="26" name="colPart4" translation="1.52588e-07 1.17585 9.04234" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="152" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <TransformGroup name="lights" translation="1.52588e-07 -1.51818 4.47688" nodeId="153">
-            <TransformGroup name="beaconLights" rotation="90 -0 0" nodeId="154">
-              <TransformGroup name="beaconLight01" translation="-0.771865 -4.98869 -1.62015" rotation="90 -0 0" nodeId="155"/>
-              <TransformGroup name="beaconLight02" translation="1.04012 5.09356 -3.81066" rotation="-90 -0 0" nodeId="156"/>
-            </TransformGroup>
-            <TransformGroup name="worklights" clipDistance="400" nodeId="157">
-              <TransformGroup name="worklight01" translation="1.3 3.507 4.25" rotation="180 31.712 -180" clipDistance="300" nodeId="158">
-                <Light name="workLight01" translation="0 0.083 0.19169" rotation="167.258 3.408 171.213" clipDistance="75" nodeId="159" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="30" coneAngle="120" dropOff="3"/>
-              </TransformGroup>
-              <TransformGroup name="worklight02" translation="-1.3 3.507 4.25" rotation="180 -31.712 -180" clipDistance="300" nodeId="160">
-                <Light name="workLight02" translation="0 0.083 0.19169" rotation="156.048 -3.40831 171.213" clipDistance="75" nodeId="161" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="30" coneAngle="120" dropOff="3"/>
-              </TransformGroup>
-            </TransformGroup>
-            <TransformGroup name="sharedLights" translation="0 1.026 0" nodeId="162">
-              <TransformGroup name="sideMarkerL01" translation="1.235 0.67 -1.112" rotation="90 90 6.25409e-06" scale="0.75 0.75 0.75" nodeId="163"/>
-              <TransformGroup name="sideMarkerL02" translation="1.235 0.67 -3.362" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="164"/>
-              <TransformGroup name="sideMarkerL03" translation="1.235 0.67 1.112" rotation="90 90 6.25409e-06" scale="0.75 0.75 0.75" nodeId="165"/>
-              <TransformGroup name="sideMarkerL04" translation="1.235 0.67 3.362" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="166"/>
-              <TransformGroup name="sideMarkerR01" translation="-1.235 0.67 -1.112" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="167"/>
-              <TransformGroup name="sideMarkerR02" translation="-1.235 0.67 -3.362" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="168"/>
-              <TransformGroup name="sideMarkerR03" translation="-1.235 0.67 1.112" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="169"/>
-              <TransformGroup name="sideMarkerR04" translation="-1.235 0.67 3.362" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="170"/>
-            </TransformGroup>
-            <TransformGroup name="Sidelights" translation="0 0.388 0" clipDistance="400" nodeId="171">
-              <TransformGroup name="BottomLight" translation="0 1.94033 -5.30435" nodeId="172"/>
-              <TransformGroup name="leftSide" translation="0 0.638 0" nodeId="173">
-                <TransformGroup name="sideMarker_WhiteL01" translation="1.235 0.67 -4.435" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="174"/>
-                <TransformGroup name="sideMarker_WhiteL02" translation="1.235 0.67 -2.25" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="175"/>
-                <TransformGroup name="sideMarker_WhiteL03" translation="1.235 0.67 2.25" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="176"/>
-                <TransformGroup name="sideMarker_WhiteL04" translation="1.235 0.67 4.28" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="177"/>
-                <TransformGroup name="sideMarker_WhiteL05" translation="1.235 0.67 -0.085" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="178"/>
-                <Light name="sideLightsL01" translation="1.235 0.67 -4.435" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="179" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
-                <Light name="sideLightsL02" translation="1.235 0.67 -2.25" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="180" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
-                <Light name="sideLightsL03" translation="1.235 0.67 2.25" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="181" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
-                <Light name="sideLightsL04" translation="1.235 0.67 4.28" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="182" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
-                <Light name="sideLightsL05" translation="1.235 0.67 -0.085" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="183" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
-              </TransformGroup>
-              <TransformGroup name="rightSide" translation="0 0.638 0" nodeId="184">
-                <TransformGroup name="sideMarker_WhiteR01" translation="-1.235 0.67 -4.435" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="185"/>
-                <TransformGroup name="sideMarker_WhiteR02" translation="-1.235 0.67 -2.25" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="186"/>
-                <TransformGroup name="sideMarker_WhiteR03" translation="-1.235 0.67 2.25" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="187"/>
-                <TransformGroup name="sideMarker_WhiteR04" translation="-1.235 0.67 4.28" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="188"/>
-                <TransformGroup name="sideMarker_WhiteR05" translation="-1.235 0.67 -0.085" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="189"/>
-                <Light name="sideLightsR01" translation="-1.235 0.67 -4.435" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="190" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
-                <Light name="sideLightsR02" translation="-1.235 0.67 -2.25" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="191" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
-                <Light name="sideLightsR03" translation="-1.235 0.67 2.25" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="192" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
-                <Light name="sideLightsR04" translation="-1.235 0.67 4.28" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="193" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
-                <Light name="sideLightsR05" translation="-1.235 0.67 -0.085" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="194" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
-              </TransformGroup>
-            </TransformGroup>
-          </TransformGroup>
-          <TransformGroup name="visuals" translation="1.52588e-07 -1.518 4.47688" nodeId="195">
-            <Shape shapeId="27" name="beaconBlock" translation="1.04047 3.73651 5.09164" clipDistance="300" nodeId="196" materialIds="9" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="28" name="workLightBlock01" translation="1.28 3.485 4.25" rotation="-180 -0 180" clipDistance="300" nodeId="197" materialIds="9" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="28" name="workLightBlock02" translation="-1.28 3.485 4.25" clipDistance="300" nodeId="198" materialIds="9" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="29" name="decal_reflectors" translation="0.00198639 2.61266 -0.18294" clipDistance="75" nodeId="199" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="30" name="decals2" translation="4.16884e-05 1.93453 -0.12087" clipDistance="50" nodeId="200" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="31" name="decalsScrews" translation="4.99725e-05 2.4629 -5.06397" clipDistance="50" nodeId="201" materialIds="15" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="32" name="decalsBlack" translation="0 -0.000180006 0" visibility="false" clipDistance="300" nodeId="202" materialIds="10" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="33" name="Sign" translation="0 -0.000180006 0" clipDistance="300" nodeId="203" materialIds="10" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="34" name="decalsWhite" translation="0 -0.000180006 0" clipDistance="300" nodeId="204" materialIds="10" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="35" name="decalsRed" translation="0 -0.000180006 0" visibility="false" clipDistance="300" nodeId="205" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Light name="turnLightLeftBack" translation="0.826703 1.18315 -4.69541" rotation="-8 -5 -4.9886e-17" clipDistance="75" nodeId="105" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="4" coneAngle="140" dropOff="3"/>
+          <Light name="turnLightRightBack" translation="-0.827 1.18315 -4.73162" rotation="-8 5 4.9886e-17" clipDistance="75" nodeId="106" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="4" coneAngle="140" dropOff="3"/>
+          <Light name="reverseLightLeft" translation="0.826703 1.18315 -4.69541" rotation="-8 -5 -4.9886e-17" clipDistance="75" nodeId="107" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="150" dropOff="3"/>
+          <Light name="reverseLightRight" translation="-0.827 1.18315 -4.73162" rotation="-8 5 4.9886e-17" clipDistance="75" nodeId="108" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="150" dropOff="3"/>
+          <TransformGroup name="beaconLights" rotation="90 -0 0" nodeId="109">
+            <TransformGroup name="beaconLight02" translation="1.04012 5.09356 -3.81066" rotation="-90 -0 0" nodeId="110"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="hydraulicBody" translation="0 1.59691 4.836" rotation="-90 0 0" nodeId="206">
-          <TransformGroup name="hydraulicBodyPunch1" translation="0 2.84217e-15 1.08002e-14" nodeId="207">
-            <TransformGroup name="hydraulicBodyPunch2" nodeId="208">
-              <TransformGroup name="hydraulicBodyPunch3" nodeId="209">
-                <TransformGroup name="hydraulicBodyPunch4" translation="0 5.68434e-15 1.98952e-15" nodeId="210"/>
+        <TransformGroup name="body" translation="-1.52588e-07 1.51818 -4.47688" nodeId="111">
+          <TransformGroup name="hydraulicBodyRef" translation="1.52588e-07 0.594818 9.31198" rotation="-90 0 0" nodeId="112"/>
+          <TransformGroup name="tipArmRef" translation="1.52588e-07 0.0482183 2.85248" rotation="0.0437086 180 0" nodeId="113"/>
+          <TransformGroup name="backDoor" translation="1.52588e-07 2.22022 0.0131771" nodeId="114">
+            <TransformGroup name="hydraulicBackDoorRef" translation="0 -0.198782 -0.12163" rotation="-75 0 0" nodeId="115"/>
+            <TransformGroup name="grainDoorArm" translation="-0.297439 -1.39925 -0.749969" rotation="41.531 90 0" nodeId="116"/>
+            <TransformGroup name="grainDoor" translation="0 -1.78442 -0.719969" nodeId="117">
+              <TransformGroup name="grainDoorArmRef" translation="-0.005075 0.126421 -0.0300006" nodeId="118"/>
+            </TransformGroup>
+            <Shape shapeId="6" name="decal_reflectorsBackDoor" translation="0.00162071 -1.70985 -0.671298" clipDistance="75" nodeId="119" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="7" name="decalsBackDoorBlack" translation="0 -3.7384 4.4637" visibility="false" clipDistance="300" nodeId="120" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="8" name="decals_sings1" translation="0.0212669 -2.04535 -0.729871" clipDistance="50" nodeId="121" materialIds="15" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="9" name="decal_reflectorsBackDoor1" translation="0.00162071 -1.70985 -0.671298" clipDistance="75" nodeId="122" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="10" name="colPart5" translation="0 -1.04437 -0.671813" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="123" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="11" name="decalsBackDoorWhite" translation="0 -3.7384 4.4637" clipDistance="300" nodeId="124" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="12" name="decalsBackDoorRed" translation="0 -3.7384 4.4637" visibility="false" clipDistance="300" nodeId="125" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <TransformGroup name="frontLights" translation="1.52588e-07 -1.51818 4.47688" nodeId="126">
+            <TransformGroup name="sideMarkerWhiteLeft" translation="1.23334 1.69164 4.62118" rotation="90 0 -90" nodeId="127"/>
+            <TransformGroup name="sideMarkerWhiteRight" translation="-1.233 1.692 4.621" rotation="90 0 90" nodeId="128"/>
+          </TransformGroup>
+          <TransformGroup name="hydraulicBackDoor" translation="1.52588e-07 1.2864 -0.305405" rotation="-75 0 0" nodeId="129">
+            <TransformGroup name="hydraulicBackDoorPunch" translation="0 2.55795e-14 0.760962" nodeId="130"/>
+          </TransformGroup>
+          <TransformGroup name="hydraulicBackDoorRefFrame" translation="1.52588e-07 2.02144 -0.108453" rotation="-75 0 0" nodeId="131"/>
+          <TransformGroup name="coverBase" translation="1.52588e-07 -1.41689 4.47688" nodeId="132">
+            <Shape shapeId="13" name="cover_open" translation="-1.26965 3.7793 -0.0444066" visibility="false" clipDistance="75" nodeId="133" materialIds="12" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="14" name="cover_closed" translation="0 -8.52651e-16 0" clipDistance="300" nodeId="134" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+          <TransformGroup name="fillVolume" translation="1.52588e-07 -1.51818 4.47688" nodeId="135">
+            <Shape shapeId="15" name="exactFillRootNode" translation="0 2.75832 -0.274858" kinematic="true" compound="true" collisionMask="1073741824" nodeId="136" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <TransformGroup name="fillAutoAimTarget" translation="0 3.95792 0" nodeId="137"/>
+            <Shape shapeId="16" name="fillVolume" translation="0 1.72614 -0.302619" clipDistance="300" nodeId="138" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <TransformGroup name="fillVolumeHeightNodeBack1" translation="0.599956 3.7 -4.91042" nodeId="139"/>
+            <TransformGroup name="fillVolumeHeightNodeBack2" translation="-0.6 3.7 -4.91042" nodeId="140"/>
+            <TransformGroup name="fillVolumeUnloadInfo" translation="0 2.57972 4.54215" nodeId="141"/>
+          </TransformGroup>
+          <TransformGroup name="effects" translation="1.52588e-07 -1.51818 4.47688" nodeId="142">
+            <TransformGroup name="particleBack" translation="0 1.76209 -5.10687" nodeId="143">
+              <TransformGroup name="effectNodesBack" translation="0 0 5.68434e-16" nodeId="144">
+                <Shape shapeId="17" name="effectGrainBack" translation="0 0 0.0468919" clipDistance="300" nodeId="145" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="18" name="effectSmokeBack" visibility="false" clipDistance="300" nodeId="146" materialIds="5" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="particleNodeBack" translation="0 0 5.68434e-16" nodeId="147">
+                <Shape shapeId="19" name="effectParticleBack" translation="-4.5127e-24 0.00783513 -0.0126961" rotation="0 180 0" clipDistance="300" nodeId="148" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="particleBackGrainDoor" translation="0 1.74689 -4.72446" nodeId="149">
+              <TransformGroup name="effectNodesBackGrainDoor" translation="3.84535e-15 0.03748 -0.462874" nodeId="150">
+                <Shape shapeId="20" name="effectGrainDoor" translation="-5.04871e-31 0 0" visibility="false" clipDistance="300" nodeId="151" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="21" name="effectSmokeDoor" translation="-5.04871e-31 0 0" visibility="false" clipDistance="300" nodeId="152" materialIds="5" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="particleNodeBackGrainDoor" translation="0 0 5.68434e-16" nodeId="153">
+                <Shape shapeId="22" name="effectParticleDoor" translation="1.33672e-15 0.264094 -0.410574" rotation="0 180 0" clipDistance="300" nodeId="154" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <Shape shapeId="23" name="colPart1" translation="1.52588e-07 -0.247366 4.47688" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="155" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="24" name="colPart2" translation="-1.19934 1.17543 4.23193" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="156" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="25" name="colPart3" translation="1.199 1.17543 4.23193" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="157" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="26" name="colPart4" translation="1.52588e-07 1.17585 9.04234" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="158" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="lights" translation="1.52588e-07 -1.51818 4.47688" nodeId="159">
+            <TransformGroup name="beaconLights" rotation="90 -0 0" nodeId="160">
+              <TransformGroup name="beaconLight01" translation="-0.771865 -4.98869 -1.62015" rotation="90 -0 0" nodeId="161"/>
+            </TransformGroup>
+            <TransformGroup name="worklights" clipDistance="400" nodeId="162">
+              <TransformGroup name="worklight01" translation="1.3 3.507 4.25" rotation="180 31.712 -180" clipDistance="300" nodeId="163">
+                <Light name="workLight01" translation="0 0.083 0.19169" rotation="167.258 3.408 171.213" clipDistance="75" nodeId="164" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="30" coneAngle="120" dropOff="3"/>
+              </TransformGroup>
+              <TransformGroup name="worklight02" translation="-1.3 3.507 4.25" rotation="180 -31.712 -180" clipDistance="300" nodeId="165">
+                <Light name="workLight02" translation="0 0.083 0.19169" rotation="156.048 -3.40831 171.213" clipDistance="75" nodeId="166" type="spot" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="30" coneAngle="120" dropOff="3"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="sharedLights" translation="0 1.026 0" nodeId="167">
+              <TransformGroup name="sideMarkerL01" translation="1.235 0.67 -1.112" rotation="90 90 6.25409e-06" scale="0.75 0.75 0.75" nodeId="168"/>
+              <TransformGroup name="sideMarkerL02" translation="1.235 0.67 -3.362" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="169"/>
+              <TransformGroup name="sideMarkerL03" translation="1.235 0.67 1.112" rotation="90 90 6.25409e-06" scale="0.75 0.75 0.75" nodeId="170"/>
+              <TransformGroup name="sideMarkerL04" translation="1.235 0.67 3.362" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="171"/>
+              <TransformGroup name="sideMarkerR01" translation="-1.235 0.67 -1.112" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="172"/>
+              <TransformGroup name="sideMarkerR02" translation="-1.235 0.67 -3.362" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="173"/>
+              <TransformGroup name="sideMarkerR03" translation="-1.235 0.67 1.112" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="174"/>
+              <TransformGroup name="sideMarkerR04" translation="-1.235 0.67 3.362" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="175"/>
+            </TransformGroup>
+            <TransformGroup name="Sidelights" translation="0 0.388 0" clipDistance="400" nodeId="176">
+              <TransformGroup name="BottomLight" translation="0 1.94033 -5.30435" nodeId="177"/>
+              <TransformGroup name="leftSide" translation="0 0.638 0" nodeId="178">
+                <TransformGroup name="sideMarker_WhiteL01" translation="1.235 0.67 -4.435" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="179"/>
+                <TransformGroup name="sideMarker_WhiteL02" translation="1.235 0.67 -2.25" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="180"/>
+                <TransformGroup name="sideMarker_WhiteL03" translation="1.235 0.67 2.25" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="181"/>
+                <TransformGroup name="sideMarker_WhiteL04" translation="1.235 0.67 4.28" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="182"/>
+                <TransformGroup name="sideMarker_WhiteL05" translation="1.235 0.67 -0.085" rotation="90 90 0" scale="0.75 0.75 0.75" nodeId="183"/>
+                <Light name="sideLightsL01" translation="1.235 0.67 -4.435" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="184" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
+                <Light name="sideLightsL02" translation="1.235 0.67 -2.25" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="185" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
+                <Light name="sideLightsL03" translation="1.235 0.67 2.25" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="186" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
+                <Light name="sideLightsL04" translation="1.235 0.67 4.28" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="187" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
+                <Light name="sideLightsL05" translation="1.235 0.67 -0.085" rotation="-168 90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="188" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.8" coneAngle="150" dropOff="3"/>
+              </TransformGroup>
+              <TransformGroup name="rightSide" translation="0 0.638 0" nodeId="189">
+                <TransformGroup name="sideMarker_WhiteR01" translation="-1.235 0.67 -4.435" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="190"/>
+                <TransformGroup name="sideMarker_WhiteR02" translation="-1.235 0.67 -2.25" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="191"/>
+                <TransformGroup name="sideMarker_WhiteR03" translation="-1.235 0.67 2.25" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="192"/>
+                <TransformGroup name="sideMarker_WhiteR04" translation="-1.235 0.67 4.28" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="193"/>
+                <TransformGroup name="sideMarker_WhiteR05" translation="-1.235 0.67 -0.085" rotation="90 -90 0" scale="0.75 0.75 0.75" nodeId="194"/>
+                <Light name="sideLightsR01" translation="-1.235 0.67 -4.435" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="195" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
+                <Light name="sideLightsR02" translation="-1.235 0.67 -2.25" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="196" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
+                <Light name="sideLightsR03" translation="-1.235 0.67 2.25" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="197" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
+                <Light name="sideLightsR04" translation="-1.235 0.67 4.28" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="198" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
+                <Light name="sideLightsR05" translation="-1.235 0.67 -0.085" rotation="-168 -90 0" scale="0.75 0.75 0.75" clipDistance="300" nodeId="199" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="1" coneAngle="150" dropOff="3"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="visuals" translation="1.52588e-07 -1.518 4.47688" nodeId="200">
+            <Shape shapeId="27" name="beaconBlock" translation="1.04047 3.73651 5.09164" clipDistance="300" nodeId="201" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="28" name="workLightBlock01" translation="1.28 3.485 4.25" rotation="-180 -0 180" clipDistance="300" nodeId="202" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="28" name="workLightBlock02" translation="-1.28 3.485 4.25" clipDistance="300" nodeId="203" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="29" name="decal_reflectors" translation="0.00198639 2.61266 -0.18294" clipDistance="75" nodeId="204" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="30" name="decals2" translation="4.16884e-05 1.93453 -0.12087" clipDistance="50" nodeId="205" materialIds="15" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="31" name="decalsScrews" translation="4.99725e-05 2.4629 -5.06397" clipDistance="50" nodeId="206" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="32" name="decalsBlack" translation="0 -0.000180006 0" visibility="false" clipDistance="300" nodeId="207" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="33" name="Sign" translation="0 -0.000180006 0" clipDistance="300" nodeId="208" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="34" name="decalsWhite" translation="0 -0.000180006 0" clipDistance="300" nodeId="209" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="35" name="decalsRed" translation="0 -0.000180006 0" visibility="false" clipDistance="300" nodeId="210" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="hydraulicBody" translation="0 1.59691 4.836" rotation="-90 0 0" nodeId="211">
+          <TransformGroup name="hydraulicBodyPunch1" translation="0 2.84217e-15 1.08002e-14" nodeId="212">
+            <TransformGroup name="hydraulicBodyPunch2" nodeId="213">
+              <TransformGroup name="hydraulicBodyPunch3" nodeId="214">
+                <TransformGroup name="hydraulicBodyPunch4" translation="0 5.68434e-15 1.98952e-15" nodeId="215"/>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="hydraulicBodyRefFrame" translation="0 2.113 4.8351" rotation="-90 0 0" nodeId="211"/>
-        <TransformGroup name="tipArm" translation="0 1.47 -1.1822" rotation="-4.01604 0 0" nodeId="212">
-          <TransformGroup name="tipArmPart" translation="2.77598e-19 -7.99361e-16 1.39643" rotation="176.028 2.8249e-30 180" nodeId="213"/>
+        <TransformGroup name="hydraulicBodyRefFrame" translation="0 2.113 4.8351" rotation="-90 0 0" nodeId="216"/>
+        <TransformGroup name="tipArm" translation="0 1.47 -1.1822" rotation="-4.01604 0 0" nodeId="217">
+          <TransformGroup name="tipArmPart" translation="2.77598e-19 -7.99361e-16 1.39643" rotation="176.028 2.8249e-30 180" nodeId="218"/>
         </TransformGroup>
-        <TransformGroup name="connectionHoses" translation="0 6.21725e-17 0" nodeId="214">
-          <TransformGroup name="hydraulicIn01" translation="-0.205206 2.39097 5.19478" nodeId="215"/>
-          <TransformGroup name="hydraulicOut01" translation="-0.0750909 2.39097 5.19478" nodeId="216"/>
-          <TransformGroup name="hydraulicIn02" translation="0.079281 2.39097 5.19478" nodeId="217"/>
-          <TransformGroup name="hydraulicOut02" translation="0.209396 2.39097 5.19478" nodeId="218"/>
+        <TransformGroup name="connectionHoses" translation="0 6.21725e-17 0" nodeId="219">
+          <TransformGroup name="hydraulicIn01" translation="-0.205206 2.39097 5.19478" nodeId="220"/>
+          <TransformGroup name="hydraulicOut01" translation="-0.0750909 2.39097 5.19478" nodeId="221"/>
+          <TransformGroup name="hydraulicIn02" translation="0.079281 2.39097 5.19478" nodeId="222"/>
+          <TransformGroup name="hydraulicOut02" translation="0.209396 2.39097 5.19478" nodeId="223"/>
         </TransformGroup>
-        <TransformGroup name="dischargeNodeBack" translation="0 1.94033 -5.30435" nodeId="219"/>
-        <TransformGroup name="dischargeNodeGrainDoor" translation="0 1.94033 -5.30435" nodeId="220"/>
-        <TransformGroup name="visuals" nodeId="221">
-          <Shape shapeId="36" name="floor_grid" translation="0 2.66201 4.98014" clipDistance="300" nodeId="222" materialIds="11" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="37" name="chain_mesh" translation="0.743495 3.61793 5.19777" clipDistance="300" nodeId="223" materialIds="13" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="38" name="decals" translation="0.00133678 1.28799 0.68318" clipDistance="50" nodeId="224" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-          <Shape shapeId="39" name="NumberPlate" translation="0 6.21725e-17 0" clipDistance="300" nodeId="225" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="dischargeNodeBack" translation="0 1.94033 -5.30435" nodeId="224"/>
+        <TransformGroup name="dischargeNodeGrainDoor" translation="0 1.94033 -5.30435" nodeId="225"/>
+        <TransformGroup name="visuals" nodeId="226">
+          <Shape shapeId="36" name="floor_grid" translation="0 2.66201 4.98014" clipDistance="300" nodeId="227" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="37" name="chain_mesh" translation="0.743495 3.61793 5.19777" clipDistance="300" nodeId="228" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="38" name="decals" translation="0.00133678 1.28799 0.68318" clipDistance="50" nodeId="229" materialIds="15" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="39" name="NumberPlate" translation="0 6.21725e-17 0" clipDistance="300" nodeId="230" materialIds="7" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
       </Shape>
-      <Shape shapeId="40" name="colPart" translation="0 1.1749 4.5236" compoundChild="true" collisionMask="8194" density="0.001" nodeId="226" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <TransformGroup name="attacherJoints" translation="0 0.204029 0.13094" nodeId="227">
-        <Shape shapeId="41" name="trailerLowNode" translation="-1.51125e-07 0.501504 -5.08" rotation="0 180 0" clipDistance="300" nodeId="228" materialIds="7" castsShadows="true" receiveShadows="true">
-          <TransformGroup name="trailerAttacherJointBackLow" translation="-4.23516e-24 -0.00870775 0" rotation="0 -90 0" nodeId="229"/>
-          <TransformGroup name="trailerSteeringLeftRef" translation="-0.245714 -0.00824821 0.000835419" rotation="0 180 0" nodeId="230"/>
-          <TransformGroup name="trailerSteeringRightRef" translation="0.245714 -0.00824821 0.000835419" rotation="0 180 0" nodeId="231"/>
+      <Shape shapeId="40" name="colPart" translation="0 1.1749 4.5236" compoundChild="true" collisionMask="8194" density="0.001" nodeId="231" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="attacherJoints" translation="0 0.204029 0.13094" nodeId="232">
+        <Shape shapeId="41" name="trailerLowNode" translation="-1.51125e-07 0.501504 -5.08" rotation="0 180 0" clipDistance="300" nodeId="233" materialIds="11" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="trailerAttacherJointBackLow" translation="-4.23516e-24 -0.00870775 0" rotation="0 -90 0" nodeId="234"/>
+          <TransformGroup name="trailerSteeringLeftRef" translation="-0.245714 -0.00824821 0.000835419" rotation="0 180 0" nodeId="235"/>
+          <TransformGroup name="trailerSteeringRightRef" translation="0.245714 -0.00824821 0.000835419" rotation="0 180 0" nodeId="236"/>
         </Shape>
-        <Shape shapeId="42" name="trailerAttacherNode" translation="-2.04292e-05 0.98 -5.125" rotation="0 180 0" clipDistance="300" nodeId="232" materialIds="7" castsShadows="true" receiveShadows="true">
-          <TransformGroup name="trailerAttacherJointBack" rotation="0 -90 0" nodeId="233"/>
+        <Shape shapeId="42" name="trailerAttacherNode" translation="-2.04292e-05 0.98 -5.125" rotation="0 180 0" clipDistance="300" nodeId="237" materialIds="11" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="trailerAttacherJointBack" rotation="0 -90 0" nodeId="238"/>
         </Shape>
-        <TransformGroup name="ptoBack" translation="-2.67547e-07 0.7509 -4.941" rotation="0 180 0" nodeId="234"/>
-        <Shape shapeId="43" name="ptoBack_turboLight" translation="0 0 -1.666" clipDistance="300" nodeId="235" materialIds="7" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="44" name="towHolder" translation="-3.01281e-08 0.811222 -2.9917" rotation="-0 90 0" scale="0.078 2 2" clipDistance="50" nodeId="236" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="ptoBack" translation="-2.67547e-07 0.7509 -4.941" rotation="0 180 0" nodeId="239"/>
+        <Shape shapeId="43" name="ptoBack_turboLight" translation="0 0 -1.666" clipDistance="300" nodeId="240" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="44" name="towHolder" translation="-3.01281e-08 0.811222 -2.9917" rotation="-0 90 0" scale="0.078 2 2" clipDistance="50" nodeId="241" materialIds="8" castsShadows="true" receiveShadows="true"/>
         </Shape>
       </TransformGroup>
+      <Camera name="reverseCamera" translation="0 1.45 -5" nodeId="242" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
     </Shape>
+    <Camera name="persp" translation="12.869 6.80875 5.64162" rotation="-25.8977 66.9214 2.04191e-07" visibility="false" nodeId="244" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
   </Scene>
 
 </i3D>
