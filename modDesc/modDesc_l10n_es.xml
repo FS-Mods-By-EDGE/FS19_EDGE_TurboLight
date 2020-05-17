@@ -6,17 +6,6 @@
 		<text name="function_turboLight"		text="El remolque tiene un enganche en la parte posterior, para que sea posible hacer un tren de carretera."/>
         <text name="name_turboLight" 			text="Luz turbo"/>
         <text name="name_turboTrailers" 		text="Turbo Remolques"/>
-        <text name="color_EDGEGOLD" 			text="EDGE ORO"/>
-        <text name="color_EDGESILVER" 			text="EDGE PLATA"/>
-        <text name="color_DARKGREY"				text="GRIS OSCURO"/>
-        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
-        <text name="color_CHROME" 				text="CROMO"/>
-        <text name="color_SILVER" 				text="PLATA"/>
-        <text name="color_DARKBLUECHROME" 		text="AZUL OSCURO CROMO"/>
-        <text name="color_ORANGECHROME" 		text="NARANJA CROMO"/>
-        <text name="color_GREENCHROME" 			text="VERDE CROMO"/>
-        <text name="color_BLUECHROME" 			text="AZUL CROMO"/>
-        <text name="color_REDCHROME" 			text="ROJA CROMO"/>
         <text name="configuration_TwinRadial" 	text="Radial doble"/>
         <text name="configuration_CARGOXBIB" 	text="Carga"/>
         <text name="configuration_CXBheavyduty" text="Tarea pesada"/>
@@ -38,6 +27,11 @@
         <text name="config_TLnodecal"			text="Sin Calcomanías"/>
         <text name="config_TLattach"			text="Enganche de remolque"/>
         <text name="config_TLnoattach"			text="Sin Enganche de remolque"/>
+        <text name="configuration_Covers"		text="Cubiertas"/>
+        <text name="config_coversBlack"			text="Negra Cubiertas"/>
+        <text name="config_coversWhite"			text="Blanca Cubiertas"/>
+        <text name="config_coversDesign"		text="Diseño Cubiertas"/>
+        <text name="config_coversPainted"		text="Defecto Cubiertas"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="MATE IT RUNNER "/>
         <text name="color_EDGEGOLDMATTE" 		text="MATE EDGE ORO "/>

@@ -6,17 +6,6 @@
 		<text name="function_turboLight"		text="La remorque a un attelage à l'arrière, pour permettre de faire un train routier."/>
         <text name="name_turboLight" 			text="Turbo Light"/>
         <text name="name_turboTrailers" 		text="Remorques turbo"/>
-        <text name="color_EDGEGOLD" 			text="EDGE OR"/>
-        <text name="color_EDGESILVER" 			text="EDGE ARGENT"/>
-        <text name="color_DARKGREY"				text="GRIS FONCÉ"/>
-        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
-        <text name="color_CHROME" 				text="CHROME"/>
-        <text name="color_SILVER" 				text="ARGENT"/>
-        <text name="color_DARKBLUECHROME" 		text="BLEU FONCÉ CHROME"/>
-        <text name="color_ORANGECHROME" 		text="ORANGE CHROME"/>
-        <text name="color_GREENCHROME" 			text="VERTE CHROME"/>
-        <text name="color_BLUECHROME" 			text="BLEUE CHROME"/>
-        <text name="color_REDCHROME" 			text="ROUGE CHROME"/>
         <text name="configuration_TwinRadial" 	text="Radial double"/>
         <text name="configuration_CARGOXBIB" 	text="Cargaison"/>
         <text name="configuration_CXBheavyduty" text="À toute épreuve"/>
@@ -38,6 +27,11 @@
         <text name="config_TLnodecal"			text="Pas de Décalcomanies"/>
         <text name="config_TLattach"			text="Attelage de remorque"/>
         <text name="config_TLnoattach"			text="Pas de Attelage de remorque"/>
+        <text name="configuration_Covers"		text="Housses"/>
+        <text name="config_coversBlack"			text="Noire Housses"/>
+        <text name="config_coversWhite"			text="Blanche Housses"/>
+        <text name="config_coversDesign"		text="Conception Housses"/>
+        <text name="config_coversPainted"		text="Défaut Housses"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MAT"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE OR MAT"/>

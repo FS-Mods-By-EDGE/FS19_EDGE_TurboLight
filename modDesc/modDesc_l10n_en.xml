@@ -6,17 +6,6 @@
 		<text name="function_turboLight"		text="The trailer has a hitch in the back, to make it possible to make a road train."/>
         <text name="name_turboLight" 			text="Turbo Light"/>
         <text name="name_turboTrailers" 		text="Turbo Trailers"/>
-        <text name="color_EDGEGOLD" 			text="EDGE GOLD"/>
-        <text name="color_EDGESILVER" 			text="EDGE SILVER"/>
-        <text name="color_DARKGREY"				text="DARK GREY"/>
-        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
-        <text name="color_CHROME" 				text="CHROME"/>
-        <text name="color_SILVER" 				text="SILVER"/>
-        <text name="color_DARKBLUECHROME" 		text="DARK BLUE CHROME"/>
-        <text name="color_ORANGECHROME" 		text="ORANGE CHROME"/>
-        <text name="color_GREENCHROME" 			text="GREEN CHROME"/>
-        <text name="color_BLUECHROME" 			text="BLUE CHROME"/>
-        <text name="color_REDCHROME" 			text="RED CHROME"/>
         <text name="configuration_TwinRadial" 	text="Twin Radial"/>
         <text name="configuration_CARGOXBIB" 	text="Cargo"/>
         <text name="configuration_CXBheavyduty" text="Heavy Duty"/>
@@ -38,6 +27,11 @@
         <text name="config_TLnodecal"			text="No Decals"/>
         <text name="config_TLattach"			text="Trailer Hitch"/>
         <text name="config_TLnoattach"			text="No Trailer Hitch"/>
+        <text name="configuration_Covers"		text="Covers"/>
+        <text name="config_coversBlack"			text="Black Covers"/>
+        <text name="config_coversWhite"			text="White Covers"/>
+        <text name="config_coversDesign"		text="Design Covers"/>
+        <text name="config_coversPainted"		text="Default Covers"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>

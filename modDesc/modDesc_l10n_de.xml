@@ -6,17 +6,6 @@
 		<text name="function_turboLight"		text="Der Anhänger hat hinten eine Anhängerkupplung, um einen Straßenzug zu ermöglichen."/>
 	    <text name="name_turboLight" 			text="Turbolicht"/>
 	    <text name="name_turboTrailers" 		text="Turboanhänger"/>
-        <text name="color_EDGEGOLD" 			text="EDGE GOLD"/>
-        <text name="color_EDGESILVER" 			text="EDGE SILBER"/>
-        <text name="color_DARKGREY"				text="DUNKELGRAU"/>
-        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
-        <text name="color_CHROME" 				text="CHROM"/>
-        <text name="color_SILVER" 				text="SILBER"/>
-        <text name="color_DARKBLUECHROME" 		text="DUNKELBLAU CHROM"/>
-        <text name="color_ORANGECHROME" 		text="ORANGE CHROM"/>
-        <text name="color_GREENCHROME" 			text="GRÜN CHROM"/>
-        <text name="color_BLUECHROME" 			text="BLAU CHROM"/>
-        <text name="color_REDCHROME" 			text="ROT CHROM"/>
         <text name="configuration_TwinRadial" 	text="Zwillingsradial"/>
         <text name="configuration_CARGOXBIB" 	text="Ladung"/>
         <text name="configuration_CXBheavyduty" text="Schwerlast"/>
@@ -38,6 +27,11 @@
         <text name="config_TLnodecal"			text="Keine Abziehbilder"/>
         <text name="config_TLattach"			text="Anhängerkupplung"/>
         <text name="config_TLnoattach"			text="Keine Anhängerkupplung"/>
+        <text name="configuration_Covers"		text="Abdeckungen"/>
+        <text name="config_coversBlack"			text="Schwarz Abdeckungen"/>
+        <text name="config_coversWhite"			text="Weiß Abdeckungen"/>
+        <text name="config_coversDesign"		text="Détail Abdeckungen"/>
+        <text name="config_coversPainted"		text="Standard Abdeckungen"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>

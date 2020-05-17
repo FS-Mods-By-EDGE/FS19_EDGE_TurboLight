@@ -6,17 +6,6 @@
 		<text name="function_turboLight"		text="Przyczepa ma zaczep z tyłu, aby umożliwić wykonanie pociągu drogowego."/>
         <text name="name_turboLight" 			text="światło turbo"/>
         <text name="name_turboTrailers" 		text="Przyczepy Turbo"/>
-        <text name="color_EDGEGOLD" 			text="EDGE ZŁOTO"/>
-        <text name="color_EDGESILVER" 			text="EDGE SREBRO"/>
-        <text name="color_DARKGREY"				text="CIEMNO SZARY"/>
-        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
-        <text name="color_CHROME" 				text="CHROM"/>
-        <text name="color_SILVER" 				text="SREBRO"/>
-        <text name="color_DARKBLUECHROME" 		text="CIEMNY NIEBIESKI CHROM"/>
-        <text name="color_ORANGECHROME" 		text="POMARAŃCZOWY CHROM"/>
-        <text name="color_GREENCHROME" 			text="ZIELONY CHROM"/>
-        <text name="color_BLUECHROME" 			text="NIEBIESKI CHROM"/>
-        <text name="color_REDCHROME" 			text="CZERWONY CHROM"/>
         <text name="configuration_TwinRadial" 	text="Podwójny promieniowy"/>
         <text name="configuration_CARGOXBIB" 	text="Ładunek"/>
         <text name="configuration_CXBheavyduty" text="ciężki obowiązek"/>
@@ -38,6 +27,11 @@
         <text name="config_TLnodecal"			text="Bez Piktogramy"/>
         <text name="config_TLattach"			text="Hak holowniczy"/>
         <text name="config_TLnoattach"			text="Bez Hak holowniczy"/>
+        <text name="configuration_Covers"		text="Okładki"/>
+        <text name="config_coversBlack"			text="Czarny Okładki"/>
+        <text name="config_coversWhite"			text="Biały Okładki"/>
+        <text name="config_coversDesign"		text="Projekt Okładki"/>
+        <text name="config_coversPainted"		text="Domyślna Okładki"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ZŁOTO MATTE"/>

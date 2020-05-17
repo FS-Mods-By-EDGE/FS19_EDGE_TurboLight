@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<vehicle type="trailer">
+<vehicle type="edge_Trailers">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
         <name>$l10n_name_turboLight</name>
@@ -39,11 +39,13 @@
                 <wheels>
                     <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="13" suspTravel="0.15" spring="80" damper="20"/>
@@ -60,11 +62,13 @@
                 <wheels>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="13" suspTravel="0.15" spring="80" damper="20"/>
@@ -81,11 +85,13 @@
                 <wheels>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="13" suspTravel="0.15" spring="80" damper="20"/>
@@ -102,11 +108,13 @@
                 <wheels>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
@@ -123,11 +131,13 @@
                 <wheels>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBib/800_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
@@ -144,11 +154,13 @@
                 <wheels>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/cargoXBibHF/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
@@ -165,11 +177,13 @@
                 <wheels>
                     <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/michelin/megaXbib/750_50R26.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
@@ -186,11 +200,13 @@
                 <wheels>
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_TwinForestry.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
@@ -207,11 +223,13 @@
                 <wheels>
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/nokian_Offroad.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
@@ -228,11 +246,13 @@
                 <wheels>
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/trelleborg_Rough.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
@@ -251,24 +271,26 @@
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
                         <innerRim offset="0.1"/>
                         <additionalWheel filename="wheels/michelin_TwinNarrow.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
-                        <wheelChock parkingNode="chock01"/>
-                        <wheelChock parkingNode="chock02" isInverted="true"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_TwinNarrow.xml" isLeft="false">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="24" suspTravel="0.15" spring="80" damper="20"/>
                         <innerRim offset="0.1"/>
                         <additionalWheel filename="wheels/michelin_TwinNarrow.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
                     </wheel>
                     <wheel filename="wheels/michelin_TwinNarrow.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
                         <innerRim offset="0.1"/>
                         <steering node="steeringBar" minTransX="0.125" maxTransX="-0.125"/>
                         <additionalWheel filename="wheels/michelin_TwinNarrow.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
                         <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
                     </wheel>
@@ -276,7 +298,7 @@
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="axisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="09" suspTravel="0.15" spring="80" damper="20"/>
                         <innerRim offset="0.1"/>
                         <additionalWheel filename="wheels/michelin_TwinNarrow.xml" configId="dual" offset="0.08" >
-                            <connector filename="$data/shared/wheels/rims/dual001_2.xml" />
+                            <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
                         <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
                     </wheel>
@@ -300,10 +322,6 @@
             <hub linkNode="hubBackRight" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
         </hubs>
     </wheels>
-    <dynamicallyLoadedParts>
-        <dynamicallyLoadedPart node="0" linkNode="chockSupport01" filename="$data/shared/assets/wheelChocks/wheelChockSupport01.i3d"/>
-        <dynamicallyLoadedPart node="0" linkNode="chockSupport02" filename="$data/shared/assets/wheelChocks/wheelChockSupport01.i3d"/>
-    </dynamicallyLoadedParts>
     <attachable>
         <inputAttacherJoints>
             <inputAttacherJoint node="attacherJoint" jointType="semitrailer"/>
@@ -312,7 +330,7 @@
         <support animationName="moveSupport"/>
         <brakeForce>1.2</brakeForce>
         <toolCameras>
-			<toolCamera node="reverseCamera" rotatable="false" useWorldXZRotation="false" limit="true" rotMinX="-1.1" rotMaxX="1.1" transMin="0" transMax="0" allowHeadTracking="true" />
+			<toolCamera node="reverseCamera" rotatable="false" useWorldXZRotation="false" limit="true" rotMinX="-1.1" rotMaxX="1.1" transMin="0" transMax="0" allowHeadTracking="true"/>
         </toolCameras>
     </attachable>
     <connectionHoses>
@@ -480,8 +498,8 @@
         </heightNodes>
     </fillVolume>
     <trailer>
-        <trailerConfigurations>
-            <trailerConfiguration>
+        <trailerConfigurations title="$l10n_configuration_Covers">
+            <trailerConfiguration name="$l10n_config_coversBlack" price="0">
                 <trailer>
                     <tipSide name="$l10n_info_tipSideBack" dischargeNodeIndex="1">
                         <animation name="tipAnimationBack" speedScale="1.0" startTipTime="0.05"/>
@@ -491,6 +509,78 @@
                         <doorAnimation name="tipAnimationGrainDoor2" speedScale="1.0"/>
                     </tipSide>
                 </trailer>
+				<objectChange node="cover_open_Black" visibilityActive="true"/>
+				<objectChange node="cover_open_White" visibilityActive="false"/>
+				<objectChange node="cover_open_Design" visibilityActive="false"/>
+				<objectChange node="cover_open_Painted" visibilityActive="false"/>
+				<objectChange node="cover_closed_Black" visibilityActive="true"/>
+				<objectChange node="cover_closed_White" visibilityActive="false"/>
+				<objectChange node="cover_closed_Design" visibilityActive="false"/>
+				<objectChange node="cover_closed_Painted" visibilityActive="false"/>
+            </trailerConfiguration>
+            <trailerConfiguration name="$l10n_config_coversWhite" price="200">
+                <trailer>
+                    <tipSide name="$l10n_info_tipSideBack" dischargeNodeIndex="1">
+                        <animation name="tipAnimationBack" speedScale="1.0" startTipTime="0.05"/>
+                    </tipSide>
+                    <tipSide name="$l10n_info_tipSideBackGrainDoor" dischargeNodeIndex="2">
+                        <animation name="tipAnimationGrainDoor" speedScale="1.0"/>
+                        <doorAnimation name="tipAnimationGrainDoor2" speedScale="1.0"/>
+                    </tipSide>
+                </trailer>
+				<objectChange node="cover_open_Black" visibilityActive="false"/>
+				<objectChange node="cover_open_White" visibilityActive="true"/>
+				<objectChange node="cover_open_Design" visibilityActive="false"/>
+				<objectChange node="cover_open_Painted" visibilityActive="false"/>
+				<objectChange node="cover_closed_Black" visibilityActive="false"/>
+				<objectChange node="cover_closed_White" visibilityActive="true"/>
+				<objectChange node="cover_closed_Design" visibilityActive="false"/>
+				<objectChange node="cover_closed_Painted" visibilityActive="false"/>
+            </trailerConfiguration>
+            <trailerConfiguration name="$l10n_config_coversDesign" price="100">
+                <trailer>
+                    <tipSide name="$l10n_info_tipSideBack" dischargeNodeIndex="1">
+                        <animation name="tipAnimationBack" speedScale="1.0" startTipTime="0.05"/>
+                    </tipSide>
+                    <tipSide name="$l10n_info_tipSideBackGrainDoor" dischargeNodeIndex="2">
+                        <animation name="tipAnimationGrainDoor" speedScale="1.0"/>
+                        <doorAnimation name="tipAnimationGrainDoor2" speedScale="1.0"/>
+                    </tipSide>
+                </trailer>
+				<objectChange node="cover_open_Black" visibilityActive="false"/>
+				<objectChange node="cover_open_White" visibilityActive="false"/>
+				<objectChange node="cover_open_Design" visibilityActive="true"/>
+				<objectChange node="cover_open_Painted" visibilityActive="false"/>
+				<objectChange node="cover_closed_Black" visibilityActive="false"/>
+				<objectChange node="cover_closed_White" visibilityActive="false"/>
+				<objectChange node="cover_closed_Design" visibilityActive="true"/>
+				<objectChange node="cover_closed_Painted" visibilityActive="false"/>
+            </trailerConfiguration>
+            <trailerConfiguration name="$l10n_config_coversPainted" price="100">
+                <trailer>
+                    <tipSide name="$l10n_info_tipSideBack" dischargeNodeIndex="1">
+                        <animation name="tipAnimationBack" speedScale="1.0" startTipTime="0.05"/>
+                    </tipSide>
+                    <tipSide name="$l10n_info_tipSideBackGrainDoor" dischargeNodeIndex="2">
+                        <animation name="tipAnimationGrainDoor" speedScale="1.0"/>
+                        <doorAnimation name="tipAnimationGrainDoor2" speedScale="1.0"/>
+                    </tipSide>
+                </trailer>
+				<objectChange node="cover_open_Black" visibilityActive="false"/>
+				<objectChange node="cover_open_White" visibilityActive="false"/>
+				<objectChange node="cover_open_Design" visibilityActive="false"/>
+				<objectChange node="cover_open_Painted" visibilityActive="true"/>
+				<objectChange node="cover_closed_Black" visibilityActive="false"/>
+				<objectChange node="cover_closed_White" visibilityActive="false"/>
+				<objectChange node="cover_closed_Design" visibilityActive="false"/>
+				<objectChange node="cover_closed_Painted" visibilityActive="true"/>
+            </trailerConfiguration>
+        </trailerConfigurations>
+    </trailer>
+    <trailer>
+        <trailerConfigurations>
+            <trailerConfiguration>
+
             </trailerConfiguration>
         </trailerConfigurations>
     </trailer>
@@ -631,7 +721,16 @@
             <shaderParameter name="colorMat0" value="KRAMPE_RED1"/>
             <shaderParameter name="colorMat1" value="SHARED_BLACK2"/>
         </material>
+        <material name="turboLightCover_mat" baseNode="cover_closed_Black">
+            <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
+            <shaderParameter name="colorMat1" value="SHARED_BLACK2"/>
+            <shaderParameter name="colorMat2" value="SHARED_BLACK2"/>
+            <shaderParameter name="colorMat3" value="SHARED_BLACK2"/>
+        </material>
     </baseMaterial>
+    <material name="wheelChockSupport_mat" baseNode="wheelChockSupportLeft01">
+        <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
+    </material>
     <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
             <!--Matte-->
 		<baseMaterialConfiguration name="$l10n_color_ITRUNNERMATTE" 	    color="0.038 0.037 0.048 1" material="1"/>
@@ -706,6 +805,7 @@
 		<baseMaterialConfiguration name="$l10n_color_NEWHOLLAND" 	        color="NEWHOLLAND_YELLOW1" 	material="0"/>
         <baseMaterialConfiguration name="$l10n_color_PINK"                  color="0.880 0.130 0.540 1" material="0"/>
         <material name="turboLight_mat" shaderParameter="colorMat0"/>
+        <material name="turboLightCover_mat" shaderParameter="colorMat2"/>
     </baseMaterialConfigurations>
     <designMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="8">
             <!--Matte-->
@@ -781,6 +881,8 @@
 		<designMaterialConfiguration name="$l10n_color_NEWHOLLAND" 	    color="NEWHOLLAND_YELLOW1" 	material="0"/>
         <designMaterialConfiguration name="$l10n_color_PINK"            color="0.880 0.130 0.540 1" material="0"/>
         <material name="turboLight_mat" shaderParameter="colorMat1"/>
+        <material name="turboLightCover_mat" shaderParameter="colorMat3"/>
+        <material name="wheelChockSupport_mat" shaderParameter="colorMat0"/>
     </designMaterialConfigurations>
     <rimColorConfigurations useDefaultColors="true" price="300" defaultColorIndex="12">
             <!--Matte-->
@@ -863,6 +965,14 @@
         <i3dMapping id="attacherJoints" node="0>2"/>
         <i3dMapping id="reverseCamera" node="0>3"/>
         <i3dMapping id="ptoBack" node="0>2|2"/>
+        <i3dMapping id="cover_open_Black" node="0>0|5|6|0|0"/>
+        <i3dMapping id="cover_open_White" node="0>0|5|6|0|1"/>
+        <i3dMapping id="cover_open_Design" node="0>0|5|6|0|2"/>
+        <i3dMapping id="cover_open_Painted" node="0>0|5|6|0|3"/>
+        <i3dMapping id="cover_closed_Black" node="0>0|5|6|1|0"/>
+        <i3dMapping id="cover_closed_White" node="0>0|5|6|1|1"/>
+        <i3dMapping id="cover_closed_Design" node="0>0|5|6|1|2"/>
+        <i3dMapping id="cover_closed_Painted" node="0>0|5|6|1|3"/>
         <i3dMapping id="hubFrontLeft" node="0>0|0|0|0"/>
         <i3dMapping id="hubFrontRight" node="0>0|0|1|0"/>
         <i3dMapping id="hubBackLeft" node="0>0|0|2|0|0|0"/>
@@ -938,10 +1048,14 @@
         <i3dMapping id="damperLeftRef" node="0>0|0|5"/>
         <i3dMapping id="damperRightRef" node="0>0|0|6"/>
         <i3dMapping id="attacherJoint" node="0>0|1"/>
-        <i3dMapping id="chockSupport01" node="0>0|2|0"/>
-        <i3dMapping id="chock01" node="0>0|2|1"/>
-        <i3dMapping id="chockSupport02" node="0>0|2|2"/>
-        <i3dMapping id="chock02" node="0>0|2|3"/>
+        <i3dMapping id="wheelChockSupportLeft01" node="0>0|2|0"/>
+        <i3dMapping id="wheelChockLeft01" node="0>0|2|0|0"/>
+        <i3dMapping id="wheelChockSupportLeft02" node="0>0|2|1"/>
+        <i3dMapping id="wheelChockLeft02" node="0>0|2|1|0"/>
+        <i3dMapping id="wheelChockSupportRight01" node="0>0|2|2"/>
+        <i3dMapping id="wheelChockRight01" node="0>0|2|2|0"/>
+        <i3dMapping id="wheelChockSupportRight02" node="0>0|2|3"/>
+        <i3dMapping id="wheelChockRight02" node="0>0|2|3|0"/>
         <i3dMapping id="support" node="0>0|3"/>
         <i3dMapping id="threeChamberLightLeft" node="0>0|4|0|0"/>
         <i3dMapping id="threeChamberLightRight" node="0>0|4|0|1"/>

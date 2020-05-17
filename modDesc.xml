@@ -17,6 +17,7 @@ just put a dolly on it and your good to go to attach something else behind it.
 It comes with TONS of costumization possibilities & alot Wheel Configurations, as well as Fully Costumizable Paint! Get that farm color on your trailer to!
 
 This Wonderful trailer will have the power to do whatever you need done on your farm, so long as your machinery has to power to pull it!
+-We highly advise using the Krampe Turbo Kipper if you want to make road trains, as this has an adjustable trailer hitch, so that you can change the distance between trailers on the go.
 
 Happy Farming.
 
@@ -40,6 +41,7 @@ Setzen Sie einfach einen Dolly darauf und Sie können gehen, um etwas anderes da
 Es kommt mit Tonnen von Kostümierungsmöglichkeiten und vielen Radkonfigurationen sowie voll kostümierbarer Farbe! Holen Sie sich diese Farmfarbe auf Ihren Trailer zu!
 
 Dieser wunderbare Anhänger hat die Kraft, alles zu tun, was Sie auf Ihrer Farm tun müssen, solange Ihre Maschinen Kraft haben, um ihn zu ziehen!
+- Wir empfehlen dringend, den Krampe Turbo Kipper zu verwenden, wenn Sie Straßenzüge bauen möchten, da dieser über eine einstellbare Anhängerkupplung verfügt, sodass Sie den Abstand zwischen den Anhängern unterwegs ändern können.
 
 Glückliche Landwirtschaft.
 
@@ -63,6 +65,7 @@ il suffit de mettre un chariot dessus et il est bon d’attacher quelque chose d
 Il est livré avec des tonnes de possibilités de personnalisation et de nombreuses configurations de roues, ainsi que de la peinture entièrement personnalisable! Obtenez cette couleur de ferme sur votre remorque!
 
 Cette merveilleuse remorque aura le pouvoir de faire tout ce que vous avez besoin de faire sur votre ferme, tant que votre machine doit être sous tension pour la tirer!
+-Nous vous recommandons fortement d'utiliser le Krampe Turbo Kipper si vous souhaitez fabriquer des trains routiers, car il possède un attelage de remorque réglable, afin que vous puissiez modifier la distance entre les remorques lors de vos déplacements.
 
 Bonne agriculture.
 
@@ -86,6 +89,7 @@ solo ponle una carretilla y estarás listo para colocar algo más detrás.
 ¡Viene con TONELADAS de posibilidades de personalización y muchas configuraciones de ruedas, así como pintura totalmente personalizable! ¡Consigue ese color de granja en tu trailer!
 
 ¡Este maravilloso remolque tendrá el poder de hacer lo que sea que necesite hacer en su granja, siempre que su maquinaria tenga poder para tirar de él!
+-Recomendamos encarecidamente usar el Krampe Turbo Kipper si desea hacer trenes de carretera, ya que tiene un enganche de remolque ajustable, para que pueda cambiar la distancia entre los remolques mientras viaja.
 
 Feliz agricultura
 
@@ -109,6 +113,7 @@ o póngase en contacto con EDGEPureGaming en Facebook.]]></es>
 Он поставляется с ДЕСЯТИМИ вариантами костюмизации и множеством конфигураций колес, а также полностью окрашиваемой краской! Получи этот цвет фермы на трейлере!
 
 Этот замечательный трейлер будет способен делать все, что вам нужно сделать на вашей ферме, при условии, что ваша техника должна тянуть его!
+-Мы настоятельно рекомендуем использовать Krampe Turbo Kipper, если вы хотите производить автопоезда, поскольку у них есть регулируемое сцепное устройство для прицепа, чтобы вы могли изменять расстояние между прицепами на ходу.
 
 Счастливого Фермерства.
 
@@ -132,8 +137,9 @@ po prostu nałóż na nią wózek i dołącz do niego coś innego.
 Pochodzi z mnóstwem możliwości kostiumizacji i wielu konfiguracji kół, a także w pełni modyfikowalną farbą! Zdobądź ten kolor farmy na swojej przyczepie!
 
 Ta wspaniała przyczepa będzie miała moc robienia wszystkiego, co trzeba zrobić na farmie, pod warunkiem, że maszyna będzie w stanie ją pociągnąć!
+-Zalecamy korzystanie z Krampe Turbo Kipper, jeśli chcesz wykonywać pociągi drogowe, ponieważ ma on regulowany zaczep do przyczepy, dzięki czemu możesz zmieniać odległość między przyczepami w ruchu.
 
-Happy Farming.
+Szczęśliwego rolnictwa.
 
 Poniżej znajdziesz szczegółowy opis:
 
@@ -155,6 +161,7 @@ mettici sopra un carrello e fai bene ad attaccare qualcos'altro dietro.
 Viene fornito con tonnellate di possibilità di costumizzazione e molte configurazioni delle ruote, nonché vernice completamente personalizzabile! Ottieni quel colore di fattoria sul tuo rimorchio a!
 
 Questo meraviglioso rimorchio avrà il potere di fare tutto ciò di cui hai bisogno nella tua fattoria, a patto che i tuoi macchinari abbiano il potere di tirarlo!
+-Si consigliamo vivamente di utilizzare Krampe Turbo Kipper se si desidera realizzare treni stradali, poiché ha un gancio di traino regolabile, in modo da poter cambiare la distanza tra i rimorchi in movimento.
 
 Buona agricoltura.
 
@@ -175,10 +182,15 @@ Giunti Attacher: gancio di traino posteriore.
 o Contatta EDGEPureGaming su Facebook.]]></it>
     </description>
     <iconFilename>turboLight_icon.dds</iconFilename>
-    <multiplayer supported="true"/>
+    <multiplayer supported="true" requiredModName="FS19_EDGE_TurboDolly"/>
     <storeItems>
         <storeItem xmlFilename="turboLight.xml"/>
     </storeItems>
+    <vehicleTypes>
+        <type name="edge_Trailers" parent="trailer" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="smartAttach"/>
+        </type>
+    </vehicleTypes>
     <l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <credits><![CDATA[
 ## Translations

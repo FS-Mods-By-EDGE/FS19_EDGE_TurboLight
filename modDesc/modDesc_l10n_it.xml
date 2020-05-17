@@ -6,17 +6,6 @@
 		<text name="function_turboLight"		text="Il rimorchio ha un intoppo nella parte posteriore, per consentire di realizzare un treno stradale."/>
         <text name="name_turboLight" 			text="Luce turbo"/>
         <text name="name_turboTrailers" 		text="Rimorchi turbo"/>
-        <text name="color_EDGEGOLD" 			text="EDGE ORO"/>
-        <text name="color_EDGESILVER" 			text="EDGE ARGENTO"/>
-        <text name="color_DARKGREY"				text="GRIGIO SCURO"/>
-        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
-        <text name="color_CHROME" 				text="CROMO"/>
-        <text name="color_SILVER" 				text="ARGENTO"/>
-        <text name="color_DARKBLUECHROME" 		text="CROMO BLU SCURO"/>
-        <text name="color_ORANGECHROME" 		text="CROMO ARANCIA"/>
-        <text name="color_GREENCHROME" 			text="CROMO VERDE"/>
-        <text name="color_BLUECHROME" 			text="CROMO BLU"/>
-        <text name="color_REDCHROME" 			text="CROMO ROSSO"/>
         <text name="configuration_TwinRadial" 	text="Radiale doppia"/>
         <text name="configuration_CARGOXBIB" 	text="Carico"/>
         <text name="configuration_CXBheavyduty" text="Robusto"/>
@@ -38,6 +27,11 @@
         <text name="config_TLnodecal"			text="Senza decalcomanie"/>
         <text name="config_TLattach"			text="Gancio traino"/>
         <text name="config_TLnoattach"			text="Senza Gancio traino"/>
+        <text name="configuration_Covers"		text="Copertine"/>
+        <text name="config_coversBlack"			text="Nera Copertine"/>
+        <text name="config_coversWhite"			text="Bianca Copertine"/>
+        <text name="config_coversDesign"		text="Design Copertine"/>
+        <text name="config_coversPainted"		text="Predefinita Copertine"/>
 			<!--Colors-->
         <text name="color_ITRUNNERMATTE" 		text="IT RUNNER OPACA"/>
         <text name="color_EDGEGOLDMATTE" 		text="EDGE ORO OPACA"/>
