@@ -727,10 +727,10 @@
             <shaderParameter name="colorMat2" value="SHARED_BLACK2"/>
             <shaderParameter name="colorMat3" value="SHARED_BLACK2"/>
         </material>
+        <material name="wheelChockSupport_mat" baseNode="wheelChockSupportLeft01">
+            <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
+        </material>
     </baseMaterial>
-    <material name="wheelChockSupport_mat" baseNode="wheelChockSupportLeft01">
-        <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
-    </material>
     <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
             <!--Matte-->
 		<baseMaterialConfiguration name="$l10n_color_ITRUNNERMATTE" 	    color="0.038 0.037 0.048 1" material="1"/>
