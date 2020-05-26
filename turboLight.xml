@@ -4,8 +4,7 @@
     <storeData>
         <name>$l10n_name_turboLight</name>
         <specs>
-            <combination>Truck, Dolly</combination>
-            <combination>$l10n_name_turboTrailers</combination>
+            <combination>Truck, Dolly, $l10n_name_turboTrailers</combination>
         </specs>
         <functions>
             <function>$l10n_function_tipper</function>
@@ -341,10 +340,10 @@
     </connectionHoses>
     <lights>
         <sharedLight linkNode="worklight01" filename="$data/shared/assets/lights/hella/hellaWorkingLightSquare_02_back.xml">
-            <rotationNode name="rotationNode1" rotation="-15 0 0"/>
+            <rotationNode name="rotationNode1" rotation="15 0 0"/>
         </sharedLight>
         <sharedLight linkNode="worklight02" filename="$data/shared/assets/lights/hella/hellaWorkingLightSquare_02_back.xml">
-            <rotationNode name="rotationNode1" rotation="-15 0 0"/>
+            <rotationNode name="rotationNode1" rotation="15 0 0"/>
         </sharedLight>
         <sharedLight linkNode="threeChamberLightLeft" filename="$data/shared/assets/lights/lizard/rear3ChamberLight_01_left.xml"/>
         <sharedLight linkNode="threeChamberLightRight" filename="$data/shared/assets/lights/lizard/rear3ChamberLight_01_right.xml"/>
@@ -574,13 +573,6 @@
 				<objectChange node="cover_closed_White" visibilityActive="false"/>
 				<objectChange node="cover_closed_Design" visibilityActive="false"/>
 				<objectChange node="cover_closed_Painted" visibilityActive="true"/>
-            </trailerConfiguration>
-        </trailerConfigurations>
-    </trailer>
-    <trailer>
-        <trailerConfigurations>
-            <trailerConfiguration>
-
             </trailerConfiguration>
         </trailerConfigurations>
     </trailer>
