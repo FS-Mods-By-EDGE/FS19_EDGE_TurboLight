@@ -34,29 +34,6 @@
     </base>
     <wheels>
         <wheelConfigurations>
-            <wheelConfiguration name="$l10n_configuration_TwinRadial" price="0" brand="TRELLEBORG">
-                <wheels>
-                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
-                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="false">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
-                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
-                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="13" suspTravel="0.15" spring="80" damper="20"/>
-                        <steering node="steeringBar" minTransX="0.125" maxTransX="-0.125"/>
-                        <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="axisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="13" suspTravel="0.15" spring="80" damper="20"/>
-                        <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
-                    </wheel>
-                </wheels>
-            </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_Radial" price="950" brand="TRELLEBORG">
                 <wheels>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/710_45R26_5.xml" isLeft="true">
@@ -98,6 +75,29 @@
                         <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/T404/800_40R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="axisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="13" suspTravel="0.15" spring="80" damper="20"/>
+                        <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_TwinRadial" price="0" brand="TRELLEBORG">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockLeft02" isInverted="true"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.7" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.15" spring="80" damper="20"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight01"/>
+                        <wheelChock filename="wheels/wheelChock.i3d" parkingNode="wheelChockRight02" isInverted="true"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="axisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="13" suspTravel="0.15" spring="80" damper="20"/>
+                        <steering node="steeringBar" minTransX="0.125" maxTransX="-0.125"/>
+                        <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.8" repr="axisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="13" suspTravel="0.15" spring="80" damper="20"/>
                         <steeringAxle scale="-0.7" rotMax="10" rotMin="-10"/>
                     </wheel>
